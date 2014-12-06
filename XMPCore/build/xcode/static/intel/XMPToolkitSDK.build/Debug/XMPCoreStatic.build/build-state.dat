@@ -1,0 +1,789 @@
+TXMPCoreStatic
+v6
+r1
+cCheck dependencies
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000531E748700000000000000AA
+t1394504839
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052A3B560000000000000044C
+t1386460512
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E747000000000000001DE
+t1394504816
+s478
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.o
+t1417844963
+s108104
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.o
+t1417844969
+s12116
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.o
+t1417844963
+s209000
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.o
+t1417844967
+s72972
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.o
+t1417844963
+s85188
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.o
+t1417844964
+s162176
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.o
+t1417844964
+s108320
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.o
+t1417844967
+s143912
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCoreStatic.LinkFileList
+c00000000548298E30000000000000CB2
+t1417844963
+s3250
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.o
+t1417844964
+s276496
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.o
+t1417844964
+s241152
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.o
+t1417844965
+s191156
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.o
+t1417844965
+s227224
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.o
+t1417844966
+s117380
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.o
+t1417844966
+s409908
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.o
+t1417844967
+s220076
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.o
+t1417844967
+s242188
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.o
+t1417844968
+s153836
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.o
+t1417844968
+s132516
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.o
+t1417844968
+s34668
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.o
+t1417844969
+s168464
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp
+c0000000051C8FFF600000000000043FB
+t1372127222
+s17403
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp
+c0000000051C8FFF6000000000000CC13
+t1372127222
+s52243
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp
+c0000000051C8FFF60000000000001605
+t1372127222
+s5637
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp
+c0000000051C8FFF60000000000009E0B
+t1372127222
+s40459
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp
+c0000000051C8FFF600000000000052FD
+t1372127222
+s21245
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp
+c0000000051C8FFF6000000000000C52B
+t1372127222
+s50475
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp
+c0000000051C8FFF60000000000005A44
+t1372127222
+s23108
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp
+c0000000051C8FFF6000000000000A867
+t1372127222
+s43111
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp
+c0000000051C8FFF6000000000000C187
+t1372127222
+s49543
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp
+c0000000051C8FFF6000000000000B777
+t1372127222
+s46967
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp
+c0000000051C8FFF8000000000000BD65
+t1372127224
+s48485
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp
+c0000000051C8FFF8000000000000CD7D
+t1372127224
+s52605
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp
+c0000000051C8FFF8000000000000FC5B
+t1372127224
+s64603
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
+t2
+s0
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp
+c0000000051C8FFFE000000000000DE05
+t1372127230
+s56837
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp
+c0000000051C90000000000000000317A
+t1372127232
+s12666
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp
+c0000000051C900000000000000005E34
+t1372127232
+s24116
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c
+c000000004F5C346800000000000303ED
+t1331442792
+s197613
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c
+c000000004983EDD50000000000007EDB
+t1233382869
+s32475
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c
+c000000004983EDD5000000000000A1BD
+t1233382869
+s41405
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp
+c0000000051C90000000000000000294A
+t1372127232
+s10570
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c
+r0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7b314863d032ba41^39625563d032ba41^---0#1#1#--18"Check dependencies36"1D25BBF0-9771-4B32-9150-37B9B62F8FDC-
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537763.333946
+e439537763.684329
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/ExpatAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/expat.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/expat_external.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp314"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler4dba5563d032ba41^e830af63d032ba41^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp0000000000000000^3210"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ExpatAdapter.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ExpatAdapter.o36"D4B39A58-5883-4128-8597-A509C94B03FF-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537769.006521
+e439537769.132491
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp309"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerdac80169d032ba41^c8eb2169d032ba41^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp0000000000000000^3182"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/MD5.o36"C3A561ED-70B3-4B5F-BEA6-957CEAB3B447-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537763.334201
+e439537763.951621
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/ExpatAdapter.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp306"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerdba55563d032ba41^5a9ef363d032ba41^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp0000000000000000^3186"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/ParseRDF.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/ParseRDF.o36"C0F62E3F-7D88-4F8E-9615-199F80D9E743-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537767.112210
+e439537767.375199
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp318"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerb7d51c67d032ba41^d40d6067d032ba41^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp0000000000000000^3230"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/UnicodeConversions.o36"C920602F-6A00-42FC-AA16-160EBF2047DC-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537763.363366
+e439537763.680267
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPIterator.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp314"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerf3205d63d032ba41^bc24ae63d032ba41^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp0000000000000000^3210"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPIterator.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPIterator.o36"4C65B900-937B-45E8-ABEB-94F5FA0CEF48-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537763.680984
+e439537764.147272
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp306"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerd673ae63d032ba41^cdcb2564d032ba41^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp0000000000000000^3186"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPMeta.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPMeta.o36"26D633A8-BFCC-4620-AA08-EE0B593F3CDA-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537763.952231
+e439537764.303609
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp308"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerb0e3f363d032ba41^e9b94d64d032ba41^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp0000000000000000^3192"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/WXMPUtils.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/WXMPUtils.o36"CBD0D69F-C9AE-4FBB-A89A-2E80D440F3C4-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537767.376780
+e439537767.722351
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp298"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerd9936067d032ba41^85ecb867d032ba41^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp0000000000000000^3170"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XML_Node.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XML_Node.o36"265B5778-BF5F-445B-87CE-196CE32BF7E9-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537764.304078
+e439537764.864124
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeInlines.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp314"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler52f34d64d032ba41^3738dd64d032ba41^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp0000000000000000^3210"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCore_Impl.o36"D307D6CA-EB71-4151-B98C-EFBF0E889207-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537764.451987
+e439537764.912872
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp312"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc8d27364d032ba41^cac0e964d032ba41^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp0000000000000000^3204"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPIterator.o36"629A0BD5-BDD3-4343-BD88-84C2BBFCE578-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537764.913376
+e439537765.538337
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeInlines.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/ExpatAdapter.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp318"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler5bede964d032ba41^0bd18965d032ba41^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp0000000000000000^3222"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-GetSet.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-GetSet.o36"8FCDC3C1-739F-4CF9-817D-64108E3098FC-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537765.133367
+e439537765.725580
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeInlines.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/ExpatAdapter.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp316"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler1c412265d032ba41^33c0b965d032ba41^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp0000000000000000^3216"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Parse.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Parse.o36"5F741778-ABA6-47A1-A1F5-30CDA34A699F-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537765.620100
+e439537766.120357
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeInlines.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp324"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerb6db9e65d032ba41^9ed11e66d032ba41^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp0000000000000000^3240"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta-Serialize.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta-Serialize.o36"66998DA0-51AE-4687-8014-4FFBA02CACD1-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537765.856848
+e439537766.615846
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPIterator.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeInlines.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp304"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7479db65d032ba41^a8a99d66d032ba41^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp0000000000000000^3180"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPMeta.o36"BA3F570E-B4E0-47A2-A77E-6EB899C294F0-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537766.591609
+e439537767.111741
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp324"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler0c959766d032ba41^fa9b1c67d032ba41^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp0000000000000000^3240"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils-FileInfo.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils-FileInfo.o36"A9D12695-4D09-43A3-A3E4-55E69B89CFD6-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537766.761600
+e439537767.224389
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPCore_Impl.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/XMP_BuildInfo.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMLParserAdapter.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/zuid/interfaces/MD5.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp306"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler4414c366d032ba41^26723967d032ba41^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp0000000000000000^3186"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/source/XMPUtils.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPUtils.o36"BC71073E-3552-4370-AC21-B21435C12ABD-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439537767.802576
+e439537768.172471
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeInlines.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp306"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler5c90cd67d032ba41^fa272c68d032ba41^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp0000000000000000^3194"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/XMP_LibUtils.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMP_LibUtils.o36"FD189117-3D3F-4F78-BB5D-FD7623DEE5FE-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s439537768.022901
+e439537768.292776
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/resource/mac/expat_config.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/ascii.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/expat.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/expat_external.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/internal.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c309"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler16f90568d032ba41^c3f34a68d032ba41^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c0000000000000000^2998"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlparse.c -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlparse.o36"DFA55D72-02F1-4EFB-B292-2E852A72E285-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s439537768.293243
+e439537768.372066
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/resource/mac/expat_config.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/expat_external.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/internal.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/ascii.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c307"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler522c4b68d032ba41^70405f68d032ba41^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c0000000000000000^2992"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmlrole.c -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmlrole.o36"B5A7365C-8D20-4885-9384-C2E687E54480-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CCompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s439537768.770709
+e439537769.140298
+r1
+xCompileC
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/resource/mac/expat_config.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/expat_external.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/internal.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/nametab.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok_impl.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/ascii.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok_impl.c
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/asciitab.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/utf8tab.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/iasciitab.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/latin1tab.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok_ns.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c305"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c normal i386 c com.apple.compilers.llvm.clang.1_0.compilerb265c568d032ba41^3dee2369d032ba41^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c0000000000000000^2986"CompileC /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -DXML_STATIC=1 -DHAVE_EXPAT_CONFIG_H=1 -DXMP_StaticBuild=1 -DXMP_64=0 -DMAC_ENV=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/DerivedSources -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/third-party/expat/lib/xmltok.c -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/xmltok.o36"B61A7D5E-4DE3-498E-9960-C0C2AD1F5A8D-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+
+CLibtool /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a normal i386
+s439537769.142052
+e439537769.167129
+r1
+xLibtool
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Libtool /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a normal i386127"Libtool /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a normal i386da702469d032ba41^f3c92a69d032ba41^---0#0#1#--854"Libtool /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a normal i386    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build    export MACOSX_DEPLOYMENT_TARGET=10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug -filelist /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/XMPToolkitSDK.build/Debug/XMPCoreStatic.build/Objects-normal/i386/XMPCoreStatic.LinkFileList -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a36"07E6DBBB-50DE-4961-A32E-4F5D1AAE283A-
+b1D246313-81CD-42AB-ADCE-8B956556FF34
+

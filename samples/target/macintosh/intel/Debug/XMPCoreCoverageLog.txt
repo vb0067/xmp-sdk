@@ -1,0 +1,2371 @@
+XMPCoreCoverage starting Fri Dec  5 21:57:19 2014
+Version : XMP Core 5.5.0
+
+// =============================================================================
+// Dump predefined namespaces.
+// =============================================================================
+
+Dumping namespace prefix to URI map
+  AEScart:       => http://ns.adobe.com/aes/cart/
+  DICOM:         => http://ns.adobe.com/DICOM/
+  Iptc4xmpCore:  => http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/
+  Iptc4xmpExt:   => http://iptc.org/std/Iptc4xmpExt/2008-02-29/
+  album:         => http://ns.adobe.com/album/1.0/
+  asf:           => http://ns.adobe.com/asf/1.0/
+  aux:           => http://ns.adobe.com/exif/1.0/aux/
+  bext:          => http://ns.adobe.com/bwf/bext/1.0/
+  bmsp:          => http://ns.adobe.com/StockPhoto/1.0/
+  creatorAtom:   => http://ns.adobe.com/creatorAtom/1.0/
+  crs:           => http://ns.adobe.com/camera-raw-settings/1.0/
+  dc:            => http://purl.org/dc/elements/1.1/
+  exif:          => http://ns.adobe.com/exif/1.0/
+  exifEX:        => http://cipa.jp/exif/1.0/
+  iX:            => http://ns.adobe.com/iX/1.0/
+  jp2k:          => http://ns.adobe.com/jp2k/1.0/
+  jpeg:          => http://ns.adobe.com/jpeg/1.0/
+  pdf:           => http://ns.adobe.com/pdf/1.3/
+  pdfaExtension: => http://www.aiim.org/pdfa/ns/extension/
+  pdfaField:     => http://www.aiim.org/pdfa/ns/field#
+  pdfaProperty:  => http://www.aiim.org/pdfa/ns/property#
+  pdfaSchema:    => http://www.aiim.org/pdfa/ns/schema#
+  pdfaType:      => http://www.aiim.org/pdfa/ns/type#
+  pdfaid:        => http://www.aiim.org/pdfa/ns/id/
+  pdfx:          => http://ns.adobe.com/pdfx/1.3/
+  pdfxid:        => http://www.npes.org/pdfx/ns/id/
+  photoshop:     => http://ns.adobe.com/photoshop/1.0/
+  plus:          => http://ns.useplus.org/ldf/xmp/1.0/
+  png:           => http://ns.adobe.com/png/1.0/
+  rdf:           => http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  riffinfo:      => http://ns.adobe.com/riff/info/
+  stDim:         => http://ns.adobe.com/xap/1.0/sType/Dimensions#
+  stEvt:         => http://ns.adobe.com/xap/1.0/sType/ResourceEvent#
+  stFnt:         => http://ns.adobe.com/xap/1.0/sType/Font#
+  stJob:         => http://ns.adobe.com/xap/1.0/sType/Job#
+  stMfs:         => http://ns.adobe.com/xap/1.0/sType/ManifestItem#
+  stRef:         => http://ns.adobe.com/xap/1.0/sType/ResourceRef#
+  stVer:         => http://ns.adobe.com/xap/1.0/sType/Version#
+  tiff:          => http://ns.adobe.com/tiff/1.0/
+  wav:           => http://ns.adobe.com/xmp/wav/1.0/
+  x:             => adobe:ns:meta/
+  xml:           => http://www.w3.org/XML/1998/namespace
+  xmp:           => http://ns.adobe.com/xap/1.0/
+  xmpBJ:         => http://ns.adobe.com/xap/1.0/bj/
+  xmpDM:         => http://ns.adobe.com/xmp/1.0/DynamicMedia/
+  xmpG:          => http://ns.adobe.com/xap/1.0/g/
+  xmpGImg:       => http://ns.adobe.com/xap/1.0/g/img/
+  xmpMM:         => http://ns.adobe.com/xap/1.0/mm/
+  xmpNote:       => http://ns.adobe.com/xmp/note/
+  xmpRights:     => http://ns.adobe.com/xap/1.0/rights/
+  xmpScript:     => http://ns.adobe.com/xmp/1.0/Script/
+  xmpT:          => http://ns.adobe.com/xap/1.0/t/
+  xmpTPg:        => http://ns.adobe.com/xap/1.0/t/pg/
+  xmpidq:        => http://ns.adobe.com/xmp/Identifier/qual/1.0/
+
+// =============================================================================
+// Test simple constructors and parsing, setting the instance ID.
+// =============================================================================
+
+// ------------------
+// Empty XMP object :
+
+Dumping XMPMeta object ""  (0x0)
+
+Empty object name = ""
+
+// -----------------
+// Set object name :
+
+Dumping XMPMeta object "New object name"  (0x0)
+
+// ---------------------------------
+// Construct and parse from buffer :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kRDFCoverage"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp1 = "Simple1 value"
+      ns1:SimpleProp2 = "Simple2 value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+      ns1:ArrayProp1  (0x200 : isArray)
+         [1] = "Item1.1 value"
+         [2] = "Item1.2 value"
+      ns1:ArrayProp2  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "Item2.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "Item2.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayProp3  (0xE00 : isAlt isOrdered isArray)
+         [1] = "Item3.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "Item3.2 value"
+      ns1:ArrayProp4  (0xE00 : isAlt isOrdered isArray)
+         [1] = "Item4.1 value"
+         [2] = "Item4.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayProp5  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "Item5.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-xxx"  (0x20 : isQual)
+         [2] = "Item5.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-xxx"  (0x20 : isQual)
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp1 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp2 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4  (0x150 : isStruct hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp5  (0x250 : isArray hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+         [1] = "Item1.1 value"
+         [2] = "Item1.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:NestedStructProp  (0x100 : isStruct)
+         ns1:Outer  (0x100 : isStruct)
+            ns1:Middle  (0x100 : isStruct)
+               ns1:Inner  (0x100 : isStruct)
+                  ns1:Field1 = "Field1 value"
+                  ns2:Field2 = "Field2 value"
+
+RDFCoverage object name = "Test:XMPCoreCoverage/kRDFCoverage"
+
+// -----------------
+// Add instance ID :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kRDFCoverage"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp1 = "Simple1 value"
+      ns1:SimpleProp2 = "Simple2 value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+      ns1:ArrayProp1  (0x200 : isArray)
+         [1] = "Item1.1 value"
+         [2] = "Item1.2 value"
+      ns1:ArrayProp2  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "Item2.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "Item2.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayProp3  (0xE00 : isAlt isOrdered isArray)
+         [1] = "Item3.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "Item3.2 value"
+      ns1:ArrayProp4  (0xE00 : isAlt isOrdered isArray)
+         [1] = "Item4.1 value"
+         [2] = "Item4.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayProp5  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "Item5.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-xxx"  (0x20 : isQual)
+         [2] = "Item5.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-xxx"  (0x20 : isQual)
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp1 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp2 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4  (0x150 : isStruct hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp5  (0x250 : isArray hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+         [1] = "Item1.1 value"
+         [2] = "Item1.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:NestedStructProp  (0x100 : isStruct)
+         ns1:Outer  (0x100 : isStruct)
+            ns1:Middle  (0x100 : isStruct)
+               ns1:Inner  (0x100 : isStruct)
+                  ns1:Field1 = "Field1 value"
+                  ns2:Field2 = "Field2 value"
+
+   xmpMM:  http://ns.adobe.com/xap/1.0/mm/  (0x80000000 : schema)
+      xmpMM:InstanceID = "meta2:Original"
+
+// ---------------------------
+// Clone and add instance ID :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kRDFCoverage"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp1 = "Simple1 value"
+      ns1:SimpleProp2 = "Simple2 value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+      ns1:ArrayProp1  (0x200 : isArray)
+         [1] = "Item1.1 value"
+         [2] = "Item1.2 value"
+      ns1:ArrayProp2  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "Item2.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "Item2.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayProp3  (0xE00 : isAlt isOrdered isArray)
+         [1] = "Item3.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "Item3.2 value"
+      ns1:ArrayProp4  (0xE00 : isAlt isOrdered isArray)
+         [1] = "Item4.1 value"
+         [2] = "Item4.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayProp5  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "Item5.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-xxx"  (0x20 : isQual)
+         [2] = "Item5.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-xxx"  (0x20 : isQual)
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp1 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp2 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4  (0x150 : isStruct hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp5  (0x250 : isArray hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+         [1] = "Item1.1 value"
+         [2] = "Item1.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:NestedStructProp  (0x100 : isStruct)
+         ns1:Outer  (0x100 : isStruct)
+            ns1:Middle  (0x100 : isStruct)
+               ns1:Inner  (0x100 : isStruct)
+                  ns1:Field1 = "Field1 value"
+                  ns2:Field2 = "Field2 value"
+
+   xmpMM:  http://ns.adobe.com/xap/1.0/mm/  (0x80000000 : schema)
+      xmpMM:InstanceID = "meta4:Clone"
+
+// =============================================================================
+// Test static namespace functions.
+// =============================================================================
+
+RegisterNamespace ns2 : yes, ns2:
+RegisterNamespace nsx : no, ns2:
+GetNamespacePrefix ns1 : found, ns1:
+GetNamespaceURI ns1 : found, ns:test1/
+GetNamespacePrefix bogus : not found
+GetNamespaceURI bogus : not found
+
+Dumping namespace prefix to URI map
+  AEScart:       => http://ns.adobe.com/aes/cart/
+  DICOM:         => http://ns.adobe.com/DICOM/
+  Iptc4xmpCore:  => http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/
+  Iptc4xmpExt:   => http://iptc.org/std/Iptc4xmpExt/2008-02-29/
+  album:         => http://ns.adobe.com/album/1.0/
+  asf:           => http://ns.adobe.com/asf/1.0/
+  aux:           => http://ns.adobe.com/exif/1.0/aux/
+  bext:          => http://ns.adobe.com/bwf/bext/1.0/
+  bmsp:          => http://ns.adobe.com/StockPhoto/1.0/
+  creatorAtom:   => http://ns.adobe.com/creatorAtom/1.0/
+  crs:           => http://ns.adobe.com/camera-raw-settings/1.0/
+  dc:            => http://purl.org/dc/elements/1.1/
+  exif:          => http://ns.adobe.com/exif/1.0/
+  exifEX:        => http://cipa.jp/exif/1.0/
+  iX:            => http://ns.adobe.com/iX/1.0/
+  jp2k:          => http://ns.adobe.com/jp2k/1.0/
+  jpeg:          => http://ns.adobe.com/jpeg/1.0/
+  ns1:           => ns:test1/
+  ns2:           => ns:test2/
+  pdf:           => http://ns.adobe.com/pdf/1.3/
+  pdfaExtension: => http://www.aiim.org/pdfa/ns/extension/
+  pdfaField:     => http://www.aiim.org/pdfa/ns/field#
+  pdfaProperty:  => http://www.aiim.org/pdfa/ns/property#
+  pdfaSchema:    => http://www.aiim.org/pdfa/ns/schema#
+  pdfaType:      => http://www.aiim.org/pdfa/ns/type#
+  pdfaid:        => http://www.aiim.org/pdfa/ns/id/
+  pdfx:          => http://ns.adobe.com/pdfx/1.3/
+  pdfxid:        => http://www.npes.org/pdfx/ns/id/
+  photoshop:     => http://ns.adobe.com/photoshop/1.0/
+  plus:          => http://ns.useplus.org/ldf/xmp/1.0/
+  png:           => http://ns.adobe.com/png/1.0/
+  rdf:           => http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  riffinfo:      => http://ns.adobe.com/riff/info/
+  stDim:         => http://ns.adobe.com/xap/1.0/sType/Dimensions#
+  stEvt:         => http://ns.adobe.com/xap/1.0/sType/ResourceEvent#
+  stFnt:         => http://ns.adobe.com/xap/1.0/sType/Font#
+  stJob:         => http://ns.adobe.com/xap/1.0/sType/Job#
+  stMfs:         => http://ns.adobe.com/xap/1.0/sType/ManifestItem#
+  stRef:         => http://ns.adobe.com/xap/1.0/sType/ResourceRef#
+  stVer:         => http://ns.adobe.com/xap/1.0/sType/Version#
+  tiff:          => http://ns.adobe.com/tiff/1.0/
+  wav:           => http://ns.adobe.com/xmp/wav/1.0/
+  x:             => adobe:ns:meta/
+  xml:           => http://www.w3.org/XML/1998/namespace
+  xmp:           => http://ns.adobe.com/xap/1.0/
+  xmpBJ:         => http://ns.adobe.com/xap/1.0/bj/
+  xmpDM:         => http://ns.adobe.com/xmp/1.0/DynamicMedia/
+  xmpG:          => http://ns.adobe.com/xap/1.0/g/
+  xmpGImg:       => http://ns.adobe.com/xap/1.0/g/img/
+  xmpMM:         => http://ns.adobe.com/xap/1.0/mm/
+  xmpNote:       => http://ns.adobe.com/xmp/note/
+  xmpRights:     => http://ns.adobe.com/xap/1.0/rights/
+  xmpScript:     => http://ns.adobe.com/xmp/1.0/Script/
+  xmpT:          => http://ns.adobe.com/xap/1.0/t/
+  xmpTPg:        => http://ns.adobe.com/xap/1.0/t/pg/
+  xmpidq:        => http://ns.adobe.com/xmp/Identifier/qual/1.0/
+
+// =============================================================================
+// Test SetProperty and related methods.
+// =============================================================================
+
+// --------------------------
+// A few basic Set... calls :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Prop = "Prop value"
+      ns1:XMLProp = "<PropValue/>"
+      ns1:URIProp = "URI:value/"  (0x2 : URI)
+      ns1:Bag  (0x200 : isArray)
+         [1] = "BagItem 1"
+         [2] = "BagItem 2"
+         [3] = "BagItem 3"
+         [4] = "BagItem 4"
+      ns1:Seq  (0x600 : isOrdered isArray)
+         [1] = "SeqItem value"
+      ns1:Alt  (0xE00 : isAlt isOrdered isArray)
+         [1] = "AltItem value"
+      ns1:Struct  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+         ns2:Field3 = "Field3 value"
+
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:ns1="ns:test1/"
+            xmlns:ns2="ns:test2/">
+         <ns1:Prop>Prop value</ns1:Prop>
+         <ns1:XMLProp>&lt;PropValue/&gt;</ns1:XMLProp>
+         <ns1:URIProp rdf:resource="URI:value/"/>
+         <ns1:Bag>
+            <rdf:Bag>
+               <rdf:li>BagItem 1</rdf:li>
+               <rdf:li>BagItem 2</rdf:li>
+               <rdf:li>BagItem 3</rdf:li>
+               <rdf:li>BagItem 4</rdf:li>
+            </rdf:Bag>
+         </ns1:Bag>
+         <ns1:Seq>
+            <rdf:Seq>
+               <rdf:li>SeqItem value</rdf:li>
+            </rdf:Seq>
+         </ns1:Seq>
+         <ns1:Alt>
+            <rdf:Alt>
+               <rdf:li>AltItem value</rdf:li>
+            </rdf:Alt>
+         </ns1:Alt>
+         <ns1:Struct rdf:parseType="Resource">
+            <ns2:Field1>Field1 value</ns2:Field1>
+            <ns2:Field2>Field2 value</ns2:Field2>
+            <ns2:Field3>Field3 value</ns2:Field3>
+         </ns1:Struct>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+
+CountArrayItems Bag = 4
+
+// ---------------------
+// Add some qualifiers :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Prop = "Prop value"
+      ns1:XMLProp = "<PropValue/>"
+      ns1:URIProp = "URI:value/"  (0x2 : URI)
+      ns1:Bag  (0x200 : isArray)
+         [1] = "BagItem 1"
+         [2] = "BagItem 2"
+         [3] = "BagItem 3"
+         [4] = "BagItem 4"
+      ns1:Seq  (0x600 : isOrdered isArray)
+         [1] = "SeqItem value"
+      ns1:Alt  (0xE00 : isAlt isOrdered isArray)
+         [1] = "AltItem value"
+      ns1:Struct  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+         ns2:Field3 = "Field3 value"
+      ns1:QualProp1 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-qual"  (0x20 : isQual)
+            ? ns2:Qual1 = "Qual1 value"  (0x20 : isQual)
+            ? ns2:Qual3 = "Qual3 value"  (0x20 : isQual)
+      ns1:QualProp2 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-attr"  (0x20 : isQual)
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:ns1="ns:test1/"
+            xmlns:ns2="ns:test2/">
+         <ns1:Prop>Prop value</ns1:Prop>
+         <ns1:XMLProp>&lt;PropValue/&gt;</ns1:XMLProp>
+         <ns1:URIProp rdf:resource="URI:value/"/>
+         <ns1:Bag>
+            <rdf:Bag>
+               <rdf:li>BagItem 1</rdf:li>
+               <rdf:li>BagItem 2</rdf:li>
+               <rdf:li>BagItem 3</rdf:li>
+               <rdf:li>BagItem 4</rdf:li>
+            </rdf:Bag>
+         </ns1:Bag>
+         <ns1:Seq>
+            <rdf:Seq>
+               <rdf:li>SeqItem value</rdf:li>
+            </rdf:Seq>
+         </ns1:Seq>
+         <ns1:Alt>
+            <rdf:Alt>
+               <rdf:li>AltItem value</rdf:li>
+            </rdf:Alt>
+         </ns1:Alt>
+         <ns1:Struct rdf:parseType="Resource">
+            <ns2:Field1>Field1 value</ns2:Field1>
+            <ns2:Field2>Field2 value</ns2:Field2>
+            <ns2:Field3>Field3 value</ns2:Field3>
+         </ns1:Struct>
+         <ns1:QualProp1 xml:lang="x-qual" rdf:parseType="Resource">
+            <rdf:value>Prop value</rdf:value>
+            <ns2:Qual1>Qual1 value</ns2:Qual1>
+            <ns2:Qual3>Qual3 value</ns2:Qual3>
+         </ns1:QualProp1>
+         <ns1:QualProp2 xml:lang="x-attr">Prop value</ns1:QualProp2>
+         <ns1:QualProp3 xml:lang="en-US" rdf:parseType="Resource">
+            <rdf:value>Prop value</rdf:value>
+            <ns2:Qual>Qual value</ns2:Qual>
+         </ns1:QualProp3>
+         <ns1:QualProp4 xml:lang="en-US" rdf:parseType="Resource">
+            <rdf:value>Prop value</rdf:value>
+            <ns2:Qual>Qual value</ns2:Qual>
+         </ns1:QualProp4>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+
+
+// -----------------------------------
+// Change values and keep qualifiers :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Prop = "Prop value"
+      ns1:XMLProp = "<PropValue/>"
+      ns1:URIProp = "URI:value/"  (0x2 : URI)
+      ns1:Bag  (0x200 : isArray)
+         [1] = "BagItem 1"
+         [2] = "BagItem 2"
+         [3] = "BagItem 3"
+         [4] = "BagItem 4"
+      ns1:Seq  (0x600 : isOrdered isArray)
+         [1] = "SeqItem value"
+      ns1:Alt  (0xE00 : isAlt isOrdered isArray)
+         [1] = "AltItem value"
+      ns1:Struct  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+         ns2:Field3 = "Field3 value"
+      ns1:QualProp1 = "new value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-qual"  (0x20 : isQual)
+            ? ns2:Qual1 = "Qual1 value"  (0x20 : isQual)
+            ? ns2:Qual3 = "Qual3 value"  (0x20 : isQual)
+      ns1:QualProp2 = "new value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-attr"  (0x20 : isQual)
+      ns1:QualProp3 = "new value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4 = "new value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+
+// =============================================================================
+// Test GetProperty and related methods.
+// =============================================================================
+
+// ------------
+// XMP object :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Prop = "Prop value"
+      ns1:XMLProp = "<PropValue/>"
+      ns1:URIProp = "URI:value/"  (0x2 : URI)
+      ns1:Bag  (0x200 : isArray)
+         [1] = "BagItem 1"
+         [2] = "BagItem 2"
+         [3] = "BagItem 3"
+         [4] = "BagItem 4"
+      ns1:Seq  (0x600 : isOrdered isArray)
+         [1] = "SeqItem value"
+      ns1:Alt  (0xE00 : isAlt isOrdered isArray)
+         [1] = "AltItem value"
+      ns1:Struct  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+         ns2:Field3 = "Field3 value"
+      ns1:QualProp1 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual1 = "Qual1 value"  (0x20 : isQual)
+      ns1:QualProp2 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+
+GetProperty ns1:Prop : found, "Prop value", 0x0
+GetProperty with no schema URI - threw XMP_Error #101 : Empty schema namespace URI
+GetProperty ns1:XMLProp : found, "<PropValue/>", 0x0
+GetProperty ns1:URIProp : found, "URI:value/", 0x2
+
+GetArrayItem ns1:Bag[2] : found, "BagItem 2", 0x0
+GetArrayItem with no schema URI - threw XMP_Error #101 : Empty schema namespace URI
+GetArrayItem ns1:Seq[1] : found, "SeqItem value", 0x0
+GetArrayItem ns1:Alt[1] : found, "AltItem value", 0x0
+
+GetStructField ns1:Struct/ns2:Field1 : found, "Field1 value", 0x0
+GetStructField ns1:Struct/ns2:Field2 : found, "Field2 value", 0x0
+GetStructField ns1:Struct/ns2:Field3 : found, "Field3 value", 0x0
+GetQualifier ns1:QualProp1/?ns2:Qual1 : found, "Qual1 value", 0x20
+GetQualifier with no schema URI - threw XMP_Error #101 : Empty schema namespace URI
+GetQualifier ns1:QualProp3 : found, "en-US", 0x20
+GetQualifier ns1:QualProp3/?ns2:Qual : found, "Qual value", 0x20
+
+GetProperty ns1:Bag : found, "", 0x200
+GetProperty ns1:Seq : found, "", 0x600
+GetProperty ns1:Alt : found, "", 0xE00
+GetProperty ns1:Struct : found, "", 0x100
+
+GetProperty with bogus schema URI - threw XMP_Error #101 : Unregistered schema namespace URI
+GetProperty ns1:Bogus : not found
+GetArrayItem ns1:Bag[99] : not found
+GetStructField ns1:Struct/ns2:Bogus : not found
+GetQualifier ns1:Prop/?ns2:Bogus : not found
+
+// =============================================================================
+// Test DoesPropertyExist, DeleteProperty, and related methods.
+// =============================================================================
+
+// ------------
+// XMP object :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Prop = "Prop value"
+      ns1:XMLProp = "<PropValue/>"
+      ns1:URIProp = "URI:value/"  (0x2 : URI)
+      ns1:Bag  (0x200 : isArray)
+         [1] = "BagItem 1"
+         [2] = "BagItem 2"
+         [3] = "BagItem 3"
+         [4] = "BagItem 4"
+      ns1:Seq  (0x600 : isOrdered isArray)
+         [1] = "SeqItem value"
+      ns1:Alt  (0xE00 : isAlt isOrdered isArray)
+         [1] = "AltItem value"
+      ns1:Struct  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+         ns2:Field3 = "Field3 value"
+      ns1:QualProp1 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual1 = "Qual1 value"  (0x20 : isQual)
+      ns1:QualProp2 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+
+DoesPropertyExist ns1:Prop : yes
+DoesPropertyExist with no schema URI - threw XMP_Error #101 : Empty schema namespace URI
+DoesPropertyExist ns1:Struct : yes
+
+DoesArrayItemExist ns1:Bag[2] : yes
+DoesArrayItemExist ns1:Seq[last] : yes
+DoesStructFieldExist ns1:Struct/ns2:Field1 : yes
+DoesQualifierExist ns1:QualProp1/?ns2:Qual1 : yes
+DoesQualifierExist ns1:QualProp2/?xml:lang : yes
+
+DoesPropertyExist with bogus schema URI - threw XMP_Error #101 : Unregistered schema namespace URI
+DoesPropertyExist ns1:Bogus : no
+DoesArrayItemExist ns1:Bag[99] : no
+DoesArrayItemExist with no schema URI - threw XMP_Error #101 : Empty schema namespace URI
+DoesStructFieldExist ns1:Struct/ns2:Bogus : no
+DoesQualifierExist ns1:Prop/?ns2:Bogus : no
+
+// -----------------------------------------
+// Delete Prop, Bag[2], and Struct1/Field1 :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:XMLProp = "<PropValue/>"
+      ns1:URIProp = "URI:value/"  (0x2 : URI)
+      ns1:Bag  (0x200 : isArray)
+         [1] = "BagItem 1"
+         [2] = "BagItem 3"
+         [3] = "BagItem 4"
+      ns1:Seq  (0x600 : isOrdered isArray)
+         [1] = "SeqItem value"
+      ns1:Alt  (0xE00 : isAlt isOrdered isArray)
+         [1] = "AltItem value"
+      ns1:Struct  (0x100 : isStruct)
+         ns2:Field2 = "Field2 value"
+         ns2:Field3 = "Field3 value"
+      ns1:QualProp1 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual1 = "Qual1 value"  (0x20 : isQual)
+      ns1:QualProp2 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+
+// ------------------------------------------------------------------------------------------------
+// Delete QualProp1/?ns2:Qual1, QualProp2/?xml:lang, QualProp3:/ns2:Qual, and QualProp4/?xml:lang :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:XMLProp = "<PropValue/>"
+      ns1:URIProp = "URI:value/"  (0x2 : URI)
+      ns1:Bag  (0x200 : isArray)
+         [1] = "BagItem 1"
+         [2] = "BagItem 3"
+         [3] = "BagItem 4"
+      ns1:Seq  (0x600 : isOrdered isArray)
+         [1] = "SeqItem value"
+      ns1:Alt  (0xE00 : isAlt isOrdered isArray)
+         [1] = "AltItem value"
+      ns1:Struct  (0x100 : isStruct)
+         ns2:Field2 = "Field2 value"
+         ns2:Field3 = "Field3 value"
+      ns1:QualProp1 = "Prop value"
+      ns1:QualProp2 = "Prop value"
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+      ns1:QualProp4 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+
+// ------------------------------
+// Delete all of Bag and Struct :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:XMLProp = "<PropValue/>"
+      ns1:URIProp = "URI:value/"  (0x2 : URI)
+      ns1:Seq  (0x600 : isOrdered isArray)
+         [1] = "SeqItem value"
+      ns1:Alt  (0xE00 : isAlt isOrdered isArray)
+         [1] = "AltItem value"
+      ns1:QualProp1 = "Prop value"
+      ns1:QualProp2 = "Prop value"
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "en-US"  (0x20 : isQual)
+      ns1:QualProp4 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+
+// =============================================================================
+// Test SetLocalizedText and GetLocalizedText.
+// =============================================================================
+
+// ---------------------
+// Set x-default value :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:AltText  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "default value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-default"  (0x20 : isQual)
+
+// --------------------
+// Set en/en-us value :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:AltText  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "en-us value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-default"  (0x20 : isQual)
+         [2] = "en-us value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "en-US"  (0x20 : isQual)
+
+// --------------------
+// Set en/en-uk value :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:AltText  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "en-uk value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-default"  (0x20 : isQual)
+         [2] = "en-uk value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "en-US"  (0x20 : isQual)
+
+GetLocalizedText en/en-ca : found, 'en-US' "en-uk value", 0x50
+GetProperty ns1:AltText : found, "", 0x1E00
+
+// =============================================================================
+// Test SetProperty... and GetProperty... methods (set/get with binary values).
+// =============================================================================
+
+// ---------------------------------
+// A few basic binary Set... calls :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kDateTimeRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Date1 = "2003"
+      ns1:Date2 = "2003-12"
+      ns1:Date3 = "2003-12-31"
+      ns1:Date4 = "2003-12-31T12:34Z"
+      ns1:Date5 = "2003-12-31T12:34:56Z"
+      ns1:Date6 = "2003-12-31T12:34:56.001Z"
+      ns1:Date7 = "2003-12-31T12:34:56.000000001Z"
+      ns1:Date8 = "2003-12-31T10:04:56-02:30"
+      ns1:Date9 = "2003-12-31T15:49:56+03:15"
+      ns1:Bool0 = "False"
+      ns1:Bool1 = "True"
+      ns1:Int = "42"
+      ns1:Float = "4.200000"
+      ns1:Date10 = "2000-01-02T03:04:05"
+      ns1:Date11 = "2000-01-02T03:04:05+06:07"
+      ns1:Date12 = "2000-01-02T03:04:05-06:07"
+      ns1:Date13 = "2000-01-02T03:04:05.000000009-06:07"
+
+GetProperty_Bool Bool0 : found, 0, 0x0
+GetProperty_Bool Bool1 : found, 1, 0x0
+GetProperty_Int : found, 42, 0x0
+GetProperty_Float : found, 4.200000, 0x0
+
+GetProperty_Date (Date1) : found, 2003-00-00 00:00:00 0*00:00 0, 0x0
+GetProperty_Date (Date2) : found, 2003-12-00 00:00:00 0*00:00 0, 0x0
+GetProperty_Date (Date3) : found, 2003-12-31 00:00:00 0*00:00 0, 0x0
+GetProperty_Date (Date4) : found, 2003-12-31 12:34:00 0*00:00 0, 0x0
+GetProperty_Date (Date5) : found, 2003-12-31 12:34:56 0*00:00 0, 0x0
+GetProperty_Date (Date6) : found, 2003-12-31 12:34:56 0*00:00 1000000, 0x0
+GetProperty_Date (Date7) : found, 2003-12-31 12:34:56 0*00:00 1, 0x0
+GetProperty_Date (Date8) : found, 2003-12-31 10:04:56 -1*02:30 0, 0x0
+GetProperty_Date (Date9) : found, 2003-12-31 15:49:56 1*03:15 0, 0x0
+GetProperty_Date (Date10) : found, 2000-01-02 03:04:05 0*00:00 0, 0x0
+GetProperty_Date (Date11) : found, 2000-01-02 03:04:05 1*06:07 0, 0x0
+GetProperty_Date (Date12) : found, 2000-01-02 03:04:05 -1*06:07 0, 0x0
+GetProperty_Date (Date13) : found, 2000-01-02 03:04:05 -1*06:07 9, 0x0
+
+// --------------------------
+// Get and re-set the dates :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kDateTimeRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Date1 = "2003"
+      ns1:Date2 = "2003-12"
+      ns1:Date3 = "2003-12-31"
+      ns1:Date4 = "2003-12-31T12:34Z"
+      ns1:Date5 = "2003-12-31T12:34:56Z"
+      ns1:Date6 = "2003-12-31T12:34:56.001Z"
+      ns1:Date7 = "2003-12-31T12:34:56.000000001Z"
+      ns1:Date8 = "2003-12-31T10:04:56-02:30"
+      ns1:Date9 = "2003-12-31T15:49:56+03:15"
+      ns1:Bool0 = "False"
+      ns1:Bool1 = "True"
+      ns1:Int = "42"
+      ns1:Float = "4.200000"
+      ns1:Date10 = "2000-01-02T03:04:05"
+      ns1:Date11 = "2000-01-02T03:04:05+06:07"
+      ns1:Date12 = "2000-01-02T03:04:05-06:07"
+      ns1:Date13 = "2000-01-02T03:04:05.000000009-06:07"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:Date1 = "2003"
+      ns2:Date2 = "2003-12"
+      ns2:Date3 = "2003-12-31"
+      ns2:Date4 = "2003-12-31T12:34Z"
+      ns2:Date5 = "2003-12-31T12:34:56Z"
+      ns2:Date6 = "2003-12-31T12:34:56.001Z"
+      ns2:Date7 = "2003-12-31T12:34:56.000000001Z"
+      ns2:Date8 = "2003-12-31T10:04:56-02:30"
+      ns2:Date9 = "2003-12-31T15:49:56+03:15"
+      ns2:Date10 = "2000-01-02T03:04:05"
+      ns2:Date11 = "2000-01-02T03:04:05+06:07"
+      ns2:Date12 = "2000-01-02T03:04:05-06:07"
+      ns2:Date13 = "2000-01-02T03:04:05.000000009-06:07"
+
+// =============================================================================
+// Test parsing with multiple buffers and various options.
+// =============================================================================
+
+// -----------------------
+// Multiple buffer parse :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+// ------------------------------------------
+// Multiple buffer parse, empty last buffer :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+// -----------------------------------------
+// Multiple buffer parse, null last buffer :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+// -----------------------------------------------------
+// Parse and require xmpmeta element, which is missing :
+
+Dumping XMPMeta object ""  (0x0)
+
+// -------------------------------------------
+// Parse RDF with multiple nested namespaces :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kNamespaceRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:NestedStructProp  (0x100 : isStruct)
+         ns2:Outer  (0x100 : isStruct)
+            ns3:Middle  (0x100 : isStruct)
+               ns4:Inner  (0x100 : isStruct)
+                  ns5:Field1 = "Field1 value"
+                  ns6:Field2 = "Field2 value"
+
+// -----------------------------------------------------
+// Parse and require xmpmeta element, which is present :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kXMPMetaRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:XMPMetaProp = "xmpmeta packet"
+
+// ------------------------------------------
+// Parse and reconcile inconsistent aliases :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kInconsistentRDF"  (0x0)
+
+   dc:  http://purl.org/dc/elements/1.1/  (0x80000000 : schema)
+      dc:creator  (0x600 : isOrdered isArray)
+         [1] = "DC Creator [1]"
+
+Parse and do not reconcile inconsistent aliases - threw XMP_Error #203 : Mismatch between alias and base nodes
+
+// =============================================================================
+// Test CR and LF in values.
+// =============================================================================
+
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about="Test:XMPCoreCoverage/kNewlineRDF"
+            xmlns:ns1="ns:test1/"
+            xmlns:ns2="ns:test2/">
+         <ns1:HasCR>ASCII &#xD; CR</ns1:HasCR>
+         <ns1:HasLF>ASCII &#xA; LF</ns1:HasLF>
+         <ns1:HasCRLF>ASCII &#xD;&#xA; CRLF</ns1:HasCRLF>
+         <ns2:HasCR>ASCII &#xD; CR</ns2:HasCR>
+         <ns2:HasLF>ASCII &#xA; LF</ns2:HasLF>
+         <ns2:HasCRLF>ASCII &#xD;&#xA; CRLF</ns2:HasCRLF>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+
+
+// =============================================================================
+// Test serialization with various options.
+// =============================================================================
+
+// --------------------------------------------------
+// Parse simple RDF, serialize with various options :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:Another = "Something in another schema"
+      ns2:Yet  (0x100 : isStruct)
+         pdf:More = "Yet more in another schema"
+
+// -------------------
+// Default serialize :
+
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about="Test:XMPCoreCoverage/kSimpleRDF"
+            xmlns:ns1="ns:test1/"
+            xmlns:ns2="ns:test2/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <ns1:SimpleProp>Simple value</ns1:SimpleProp>
+         <ns1:ArrayProp>
+            <rdf:Bag>
+               <rdf:li>Item1 value</rdf:li>
+               <rdf:li>Item2 value</rdf:li>
+            </rdf:Bag>
+         </ns1:ArrayProp>
+         <ns1:StructProp rdf:parseType="Resource">
+            <ns2:Field1>Field1 value</ns2:Field1>
+            <ns2:Field2>Field2 value</ns2:Field2>
+         </ns1:StructProp>
+         <ns1:QualProp rdf:parseType="Resource">
+            <rdf:value>Prop value</rdf:value>
+            <ns2:Qual>Qual value</ns2:Qual>
+         </ns1:QualProp>
+         <ns1:AltTextProp>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-one">x-one value</rdf:li>
+               <rdf:li xml:lang="x-two">x-two value</rdf:li>
+            </rdf:Alt>
+         </ns1:AltTextProp>
+         <ns1:ArrayOfStructProp>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <ns2:Field1>Item-1</ns2:Field1>
+                  <ns2:Field2>Field 1.2 value</ns2:Field2>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <ns2:Field1>Item-2</ns2:Field1>
+                  <ns2:Field2>Field 2.2 value</ns2:Field2>
+               </rdf:li>
+            </rdf:Bag>
+         </ns1:ArrayOfStructProp>
+         <ns2:Another>Something in another schema</ns2:Another>
+         <ns2:Yet rdf:parseType="Resource">
+            <pdf:More>Yet more in another schema</pdf:More>
+         </ns2:Yet>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+
+// -------------------------------
+// Reparse default serialization :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:Another = "Something in another schema"
+      ns2:Yet  (0x100 : isStruct)
+         pdf:More = "Yet more in another schema"
+
+// ----------------------------------
+// Compact RDF, no packet serialize :
+
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="Test:XMPCoreCoverage/kSimpleRDF"
+    xmlns:ns1="ns:test1/"
+    xmlns:ns2="ns:test2/"
+    xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+   ns1:SimpleProp="Simple value"
+   ns2:Another="Something in another schema">
+   <ns1:ArrayProp>
+    <rdf:Bag>
+     <rdf:li>Item1 value</rdf:li>
+     <rdf:li>Item2 value</rdf:li>
+    </rdf:Bag>
+   </ns1:ArrayProp>
+   <ns1:StructProp
+    ns2:Field1="Field1 value"
+    ns2:Field2="Field2 value"/>
+   <ns1:QualProp rdf:parseType="Resource">
+    <rdf:value>Prop value</rdf:value>
+    <ns2:Qual>Qual value</ns2:Qual>
+   </ns1:QualProp>
+   <ns1:AltTextProp>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-one">x-one value</rdf:li>
+     <rdf:li xml:lang="x-two">x-two value</rdf:li>
+    </rdf:Alt>
+   </ns1:AltTextProp>
+   <ns1:ArrayOfStructProp>
+    <rdf:Bag>
+     <rdf:li
+      ns2:Field1="Item-1"
+      ns2:Field2="Field 1.2 value"/>
+     <rdf:li
+      ns2:Field1="Item-2"
+      ns2:Field2="Field 2.2 value"/>
+    </rdf:Bag>
+   </ns1:ArrayOfStructProp>
+   <ns2:Yet
+    pdf:More="Yet more in another schema"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+
+
+// -------------------------------
+// Reparse compact serialization :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:Another = "Something in another schema"
+      ns2:Yet  (0x100 : isStruct)
+         pdf:More = "Yet more in another schema"
+
+// -----------------------------------------
+// Read-only serialize with alias comments :
+
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>PDF Author</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>
+
+// --------------------------------------------------------
+// Read-only serialize with alias comments (more actuals) :
+
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>PDF Author</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <pdf:Actual>PDF Actual</pdf:Actual>
+         <xmp:Actual>XMP Actual</xmp:Actual>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>
+
+// ----------------------
+// CR newline serialize :
+
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">      <rdf:Description rdf:about="Test:XMPCoreCoverage/kSimpleRDF"            xmlns:ns1="ns:test1/"            xmlns:ns2="ns:test2/"            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">         <ns1:SimpleProp>Simple value</ns1:SimpleProp>         <ns1:ArrayProp>            <rdf:Bag>               <rdf:li>Item1 value</rdf:li>               <rdf:li>Item2 value</rdf:li>            </rdf:Bag>         </ns1:ArrayProp>         <ns1:StructProp rdf:parseType="Resource">            <ns2:Field1>Field1 value</ns2:Field1>            <ns2:Field2>Field2 value</ns2:Field2>         </ns1:StructProp>         <ns1:QualProp rdf:parseType="Resource">            <rdf:value>Prop value</rdf:value>            <ns2:Qual>Qual value</ns2:Qual>         </ns1:QualProp>         <ns1:AltTextProp>            <rdf:Alt>               <rdf:li xml:lang="x-one">x-one value</rdf:li>               <rdf:li xml:lang="x-two">x-two value</rdf:li>            </rdf:Alt>         </ns1:AltTextProp>         <ns1:ArrayOfStructProp>            <rdf:Bag>               <rdf:li rdf:parseType="Resource">                  <ns2:Field1>Item-1</ns2:Field1>                  <ns2:Field2>Field 1.2 value</ns2:Field2>               </rdf:li>               <rdf:li rdf:parseType="Resource">                  <ns2:Field1>Item-2</ns2:Field1>                  <ns2:Field2>Field 2.2 value</ns2:Field2>               </rdf:li>            </rdf:Bag>         </ns1:ArrayOfStructProp>         <ns2:Another>Something in another schema</ns2:Another>         <ns2:Yet rdf:parseType="Resource">            <pdf:More>Yet more in another schema</pdf:More>         </ns2:Yet>      </rdf:Description>   </rdf:RDF></x:xmpmeta>
+
+// ------------------------
+// CRLF newline serialize :
+
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about="Test:XMPCoreCoverage/kSimpleRDF"
+            xmlns:ns1="ns:test1/"
+            xmlns:ns2="ns:test2/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <ns1:SimpleProp>Simple value</ns1:SimpleProp>
+         <ns1:ArrayProp>
+            <rdf:Bag>
+               <rdf:li>Item1 value</rdf:li>
+               <rdf:li>Item2 value</rdf:li>
+            </rdf:Bag>
+         </ns1:ArrayProp>
+         <ns1:StructProp rdf:parseType="Resource">
+            <ns2:Field1>Field1 value</ns2:Field1>
+            <ns2:Field2>Field2 value</ns2:Field2>
+         </ns1:StructProp>
+         <ns1:QualProp rdf:parseType="Resource">
+            <rdf:value>Prop value</rdf:value>
+            <ns2:Qual>Qual value</ns2:Qual>
+         </ns1:QualProp>
+         <ns1:AltTextProp>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-one">x-one value</rdf:li>
+               <rdf:li xml:lang="x-two">x-two value</rdf:li>
+            </rdf:Alt>
+         </ns1:AltTextProp>
+         <ns1:ArrayOfStructProp>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <ns2:Field1>Item-1</ns2:Field1>
+                  <ns2:Field2>Field 1.2 value</ns2:Field2>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <ns2:Field1>Item-2</ns2:Field1>
+                  <ns2:Field2>Field 2.2 value</ns2:Field2>
+               </rdf:li>
+            </rdf:Bag>
+         </ns1:ArrayOfStructProp>
+         <ns2:Another>Something in another schema</ns2:Another>
+         <ns2:Yet rdf:parseType="Resource">
+            <pdf:More>Yet more in another schema</pdf:More>
+         </ns2:Yet>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+
+
+// -----------------------------
+// Alternate newline serialize :
+
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0"><->   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><->      <rdf:Description rdf:about="Test:XMPCoreCoverage/kSimpleRDF"<->            xmlns:ns1="ns:test1/"<->            xmlns:ns2="ns:test2/"<->            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"><->         <ns1:SimpleProp>Simple value</ns1:SimpleProp><->         <ns1:ArrayProp><->            <rdf:Bag><->               <rdf:li>Item1 value</rdf:li><->               <rdf:li>Item2 value</rdf:li><->            </rdf:Bag><->         </ns1:ArrayProp><->         <ns1:StructProp rdf:parseType="Resource"><->            <ns2:Field1>Field1 value</ns2:Field1><->            <ns2:Field2>Field2 value</ns2:Field2><->         </ns1:StructProp><->         <ns1:QualProp rdf:parseType="Resource"><->            <rdf:value>Prop value</rdf:value><->            <ns2:Qual>Qual value</ns2:Qual><->         </ns1:QualProp><->         <ns1:AltTextProp><->            <rdf:Alt><->               <rdf:li xml:lang="x-one">x-one value</rdf:li><->               <rdf:li xml:lang="x-two">x-two value</rdf:li><->            </rdf:Alt><->         </ns1:AltTextProp><->         <ns1:ArrayOfStructProp><->            <rdf:Bag><->               <rdf:li rdf:parseType="Resource"><->                  <ns2:Field1>Item-1</ns2:Field1><->                  <ns2:Field2>Field 1.2 value</ns2:Field2><->               </rdf:li><->               <rdf:li rdf:parseType="Resource"><->                  <ns2:Field1>Item-2</ns2:Field1><->                  <ns2:Field2>Field 2.2 value</ns2:Field2><->               </rdf:li><->            </rdf:Bag><->         </ns1:ArrayOfStructProp><->         <ns2:Another>Something in another schema</ns2:Another><->         <ns2:Yet rdf:parseType="Resource"><->            <pdf:More>Yet more in another schema</pdf:More><->         </ns2:Yet><->      </rdf:Description><->   </rdf:RDF><-></x:xmpmeta><->
+
+// ----------------------------
+// Alternate indent serialize :
+
+###<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+####<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+#####<rdf:Description rdf:about="Test:XMPCoreCoverage/kSimpleRDF"
+#######xmlns:ns1="ns:test1/"
+#######xmlns:ns2="ns:test2/"
+#######xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+######<ns1:SimpleProp>Simple value</ns1:SimpleProp>
+######<ns1:ArrayProp>
+#######<rdf:Bag>
+########<rdf:li>Item1 value</rdf:li>
+########<rdf:li>Item2 value</rdf:li>
+#######</rdf:Bag>
+######</ns1:ArrayProp>
+######<ns1:StructProp rdf:parseType="Resource">
+#######<ns2:Field1>Field1 value</ns2:Field1>
+#######<ns2:Field2>Field2 value</ns2:Field2>
+######</ns1:StructProp>
+######<ns1:QualProp rdf:parseType="Resource">
+#######<rdf:value>Prop value</rdf:value>
+#######<ns2:Qual>Qual value</ns2:Qual>
+######</ns1:QualProp>
+######<ns1:AltTextProp>
+#######<rdf:Alt>
+########<rdf:li xml:lang="x-one">x-one value</rdf:li>
+########<rdf:li xml:lang="x-two">x-two value</rdf:li>
+#######</rdf:Alt>
+######</ns1:AltTextProp>
+######<ns1:ArrayOfStructProp>
+#######<rdf:Bag>
+########<rdf:li rdf:parseType="Resource">
+#########<ns2:Field1>Item-1</ns2:Field1>
+#########<ns2:Field2>Field 1.2 value</ns2:Field2>
+########</rdf:li>
+########<rdf:li rdf:parseType="Resource">
+#########<ns2:Field1>Item-2</ns2:Field1>
+#########<ns2:Field2>Field 2.2 value</ns2:Field2>
+########</rdf:li>
+#######</rdf:Bag>
+######</ns1:ArrayOfStructProp>
+######<ns2:Another>Something in another schema</ns2:Another>
+######<ns2:Yet rdf:parseType="Resource">
+#######<pdf:More>Yet more in another schema</pdf:More>
+######</ns2:Yet>
+#####</rdf:Description>
+####</rdf:RDF>
+###</x:xmpmeta>
+
+
+// -------------------------
+// Small padding serialize :
+
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.5.0">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about="Test:XMPCoreCoverage/kSimpleRDF"
+            xmlns:ns1="ns:test1/"
+            xmlns:ns2="ns:test2/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <ns1:SimpleProp>Simple value</ns1:SimpleProp>
+         <ns1:ArrayProp>
+            <rdf:Bag>
+               <rdf:li>Item1 value</rdf:li>
+               <rdf:li>Item2 value</rdf:li>
+            </rdf:Bag>
+         </ns1:ArrayProp>
+         <ns1:StructProp rdf:parseType="Resource">
+            <ns2:Field1>Field1 value</ns2:Field1>
+            <ns2:Field2>Field2 value</ns2:Field2>
+         </ns1:StructProp>
+         <ns1:QualProp rdf:parseType="Resource">
+            <rdf:value>Prop value</rdf:value>
+            <ns2:Qual>Qual value</ns2:Qual>
+         </ns1:QualProp>
+         <ns1:AltTextProp>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-one">x-one value</rdf:li>
+               <rdf:li xml:lang="x-two">x-two value</rdf:li>
+            </rdf:Alt>
+         </ns1:AltTextProp>
+         <ns1:ArrayOfStructProp>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <ns2:Field1>Item-1</ns2:Field1>
+                  <ns2:Field2>Field 1.2 value</ns2:Field2>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <ns2:Field1>Item-2</ns2:Field1>
+                  <ns2:Field2>Field 2.2 value</ns2:Field2>
+               </rdf:li>
+            </rdf:Bag>
+         </ns1:ArrayOfStructProp>
+         <ns2:Another>Something in another schema</ns2:Another>
+         <ns2:Yet rdf:parseType="Resource">
+            <pdf:More>Yet more in another schema</pdf:More>
+         </ns2:Yet>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+         
+<?xpacket end="w"?>
+Thumbnailpad adds 10000 bytes
+Minimum packet size is 1914 bytes
+Minimum+1234 packet size is 3148 bytes
+Minimum+0 packet size is 1914 bytes
+Serialize in minimum-1 - threw XMP_Error #107 : Can't fit into specified packet size
+
+// =============================================================================
+// Test iteration methods.
+// =============================================================================
+
+// --------------------------------------------------
+// Parse "coverage" RDF, add Bag items out of order :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kRDFCoverage"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp1 = "Simple1 value"
+      ns1:SimpleProp2 = "Simple2 value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+      ns1:ArrayProp1  (0x200 : isArray)
+         [1] = "Item1.1 value"
+         [2] = "Item1.2 value"
+      ns1:ArrayProp2  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "Item2.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "Item2.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayProp3  (0xE00 : isAlt isOrdered isArray)
+         [1] = "Item3.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "Item3.2 value"
+      ns1:ArrayProp4  (0xE00 : isAlt isOrdered isArray)
+         [1] = "Item4.1 value"
+         [2] = "Item4.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayProp5  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "Item5.1 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-xxx"  (0x20 : isQual)
+         [2] = "Item5.2 value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-xxx"  (0x20 : isQual)
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp1 = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp2 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp3 = "Prop value"  (0x50 : hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:QualProp4  (0x150 : isStruct hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp5  (0x250 : isArray hasLang hasQual)
+            ? xml:lang = "x-default"  (0x20 : isQual)
+         [1] = "Item1.1 value"
+         [2] = "Item1.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:NestedStructProp  (0x100 : isStruct)
+         ns1:Outer  (0x100 : isStruct)
+            ns1:Middle  (0x100 : isStruct)
+               ns1:Inner  (0x100 : isStruct)
+                  ns1:Field1 = "Field1 value"
+                  ns2:Field2 = "Field2 value"
+      ns2:Prop = "Prop value"
+      ns2:Bag  (0x200 : isArray)
+         [1] = "BagItem 1"
+         [2] = "BagItem 2"
+         [3] = "BagItem 3"
+
+// -------------------
+// Default iteration :
+
+  ns:test1/  = "", 0x80000000
+  ns:test1/ ns1:SimpleProp1 = "Simple1 value", 0x0
+  ns:test1/ ns1:SimpleProp2 = "Simple2 value", 0x50
+  ns:test1/ ns1:SimpleProp2/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:ArrayProp1 = "", 0x200
+  ns:test1/ ns1:ArrayProp1[1] = "Item1.1 value", 0x0
+  ns:test1/ ns1:ArrayProp1[2] = "Item1.2 value", 0x0
+  ns:test1/ ns1:ArrayProp2 = "", 0x1E00
+  ns:test1/ ns1:ArrayProp2[1] = "Item2.1 value", 0x50
+  ns:test1/ ns1:ArrayProp2[1]/?xml:lang = "x-one", 0x20
+  ns:test1/ ns1:ArrayProp2[2] = "Item2.2 value", 0x50
+  ns:test1/ ns1:ArrayProp2[2]/?xml:lang = "x-two", 0x20
+  ns:test1/ ns1:ArrayProp3 = "", 0xE00
+  ns:test1/ ns1:ArrayProp3[1] = "Item3.1 value", 0x50
+  ns:test1/ ns1:ArrayProp3[1]/?xml:lang = "x-one", 0x20
+  ns:test1/ ns1:ArrayProp3[2] = "Item3.2 value", 0x0
+  ns:test1/ ns1:ArrayProp4 = "", 0xE00
+  ns:test1/ ns1:ArrayProp4[1] = "Item4.1 value", 0x0
+  ns:test1/ ns1:ArrayProp4[2] = "Item4.2 value", 0x50
+  ns:test1/ ns1:ArrayProp4[2]/?xml:lang = "x-two", 0x20
+  ns:test1/ ns1:ArrayProp5 = "", 0x1E00
+  ns:test1/ ns1:ArrayProp5[1] = "Item5.1 value", 0x50
+  ns:test1/ ns1:ArrayProp5[1]/?xml:lang = "x-xxx", 0x20
+  ns:test1/ ns1:ArrayProp5[2] = "Item5.2 value", 0x50
+  ns:test1/ ns1:ArrayProp5[2]/?xml:lang = "x-xxx", 0x20
+  ns:test1/ ns1:StructProp = "", 0x100
+  ns:test1/ ns1:StructProp/ns2:Field1 = "Field1 value", 0x0
+  ns:test1/ ns1:StructProp/ns2:Field2 = "Field2 value", 0x0
+  ns:test1/ ns1:QualProp1 = "Prop value", 0x10
+  ns:test1/ ns1:QualProp1/?ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp2 = "Prop value", 0x50
+  ns:test1/ ns1:QualProp2/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:QualProp2/?ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp3 = "Prop value", 0x50
+  ns:test1/ ns1:QualProp3/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:QualProp3/?ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp4 = "", 0x150
+  ns:test1/ ns1:QualProp4/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:QualProp4/ns2:Field1 = "Field1 value", 0x0
+  ns:test1/ ns1:QualProp4/ns2:Field2 = "Field2 value", 0x0
+  ns:test1/ ns1:QualProp5 = "", 0x250
+  ns:test1/ ns1:QualProp5/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:QualProp5[1] = "Item1.1 value", 0x0
+  ns:test1/ ns1:QualProp5[2] = "Item1.2 value", 0x0
+  ns:test2/  = "", 0x80000000
+  ns:test2/ ns2:NestedStructProp = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns1:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns2:Field2 = "Field2 value", 0x0
+  ns:test2/ ns2:Prop = "Prop value", 0x0
+  ns:test2/ ns2:Bag = "", 0x200
+  ns:test2/ ns2:Bag[1] = "BagItem 1", 0x0
+  ns:test2/ ns2:Bag[2] = "BagItem 2", 0x0
+  ns:test2/ ns2:Bag[3] = "BagItem 3", 0x0
+
+// -----------------------------
+// Iterate omitting qualifiers :
+
+  ns:test1/  = "", 0x80000000
+  ns:test1/ ns1:SimpleProp1 = "Simple1 value", 0x0
+  ns:test1/ ns1:SimpleProp2 = "Simple2 value", 0x50
+  ns:test1/ ns1:ArrayProp1 = "", 0x200
+  ns:test1/ ns1:ArrayProp1[1] = "Item1.1 value", 0x0
+  ns:test1/ ns1:ArrayProp1[2] = "Item1.2 value", 0x0
+  ns:test1/ ns1:ArrayProp2 = "", 0x1E00
+  ns:test1/ ns1:ArrayProp2[1] = "Item2.1 value", 0x50
+  ns:test1/ ns1:ArrayProp2[2] = "Item2.2 value", 0x50
+  ns:test1/ ns1:ArrayProp3 = "", 0xE00
+  ns:test1/ ns1:ArrayProp3[1] = "Item3.1 value", 0x50
+  ns:test1/ ns1:ArrayProp3[2] = "Item3.2 value", 0x0
+  ns:test1/ ns1:ArrayProp4 = "", 0xE00
+  ns:test1/ ns1:ArrayProp4[1] = "Item4.1 value", 0x0
+  ns:test1/ ns1:ArrayProp4[2] = "Item4.2 value", 0x50
+  ns:test1/ ns1:ArrayProp5 = "", 0x1E00
+  ns:test1/ ns1:ArrayProp5[1] = "Item5.1 value", 0x50
+  ns:test1/ ns1:ArrayProp5[2] = "Item5.2 value", 0x50
+  ns:test1/ ns1:StructProp = "", 0x100
+  ns:test1/ ns1:StructProp/ns2:Field1 = "Field1 value", 0x0
+  ns:test1/ ns1:StructProp/ns2:Field2 = "Field2 value", 0x0
+  ns:test1/ ns1:QualProp1 = "Prop value", 0x10
+  ns:test1/ ns1:QualProp2 = "Prop value", 0x50
+  ns:test1/ ns1:QualProp3 = "Prop value", 0x50
+  ns:test1/ ns1:QualProp4 = "", 0x150
+  ns:test1/ ns1:QualProp4/ns2:Field1 = "Field1 value", 0x0
+  ns:test1/ ns1:QualProp4/ns2:Field2 = "Field2 value", 0x0
+  ns:test1/ ns1:QualProp5 = "", 0x250
+  ns:test1/ ns1:QualProp5[1] = "Item1.1 value", 0x0
+  ns:test1/ ns1:QualProp5[2] = "Item1.2 value", 0x0
+  ns:test2/  = "", 0x80000000
+  ns:test2/ ns2:NestedStructProp = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns1:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns2:Field2 = "Field2 value", 0x0
+  ns:test2/ ns2:Prop = "Prop value", 0x0
+  ns:test2/ ns2:Bag = "", 0x200
+  ns:test2/ ns2:Bag[1] = "BagItem 1", 0x0
+  ns:test2/ ns2:Bag[2] = "BagItem 2", 0x0
+  ns:test2/ ns2:Bag[3] = "BagItem 3", 0x0
+
+// ------------------------------
+// Iterate with just leaf names :
+
+  ns:test1/  = "", 0x80000000
+  ns:test1/ ns1:SimpleProp1 = "Simple1 value", 0x0
+  ns:test1/ ns1:SimpleProp2 = "Simple2 value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-default", 0x20
+  ns:test1/ ns1:ArrayProp1 = "", 0x200
+   [1] = "Item1.1 value", 0x0
+   [2] = "Item1.2 value", 0x0
+  ns:test1/ ns1:ArrayProp2 = "", 0x1E00
+   [1] = "Item2.1 value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-one", 0x20
+   [2] = "Item2.2 value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-two", 0x20
+  ns:test1/ ns1:ArrayProp3 = "", 0xE00
+   [1] = "Item3.1 value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-one", 0x20
+   [2] = "Item3.2 value", 0x0
+  ns:test1/ ns1:ArrayProp4 = "", 0xE00
+   [1] = "Item4.1 value", 0x0
+   [2] = "Item4.2 value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-two", 0x20
+  ns:test1/ ns1:ArrayProp5 = "", 0x1E00
+   [1] = "Item5.1 value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-xxx", 0x20
+   [2] = "Item5.2 value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-xxx", 0x20
+  ns:test1/ ns1:StructProp = "", 0x100
+  ns:test2/ ns2:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:Field2 = "Field2 value", 0x0
+  ns:test1/ ns1:QualProp1 = "Prop value", 0x10
+  ns:test2/ ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp2 = "Prop value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-default", 0x20
+  ns:test2/ ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp3 = "Prop value", 0x50
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-default", 0x20
+  ns:test2/ ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp4 = "", 0x150
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-default", 0x20
+  ns:test2/ ns2:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:Field2 = "Field2 value", 0x0
+  ns:test1/ ns1:QualProp5 = "", 0x250
+  http://www.w3.org/XML/1998/namespace xml:lang = "x-default", 0x20
+   [1] = "Item1.1 value", 0x0
+   [2] = "Item1.2 value", 0x0
+  ns:test2/  = "", 0x80000000
+  ns:test2/ ns2:NestedStructProp = "", 0x100
+  ns:test1/ ns1:Outer = "", 0x100
+  ns:test1/ ns1:Middle = "", 0x100
+  ns:test1/ ns1:Inner = "", 0x100
+  ns:test1/ ns1:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:Field2 = "Field2 value", 0x0
+  ns:test2/ ns2:Prop = "Prop value", 0x0
+  ns:test2/ ns2:Bag = "", 0x200
+   [1] = "BagItem 1", 0x0
+   [2] = "BagItem 2", 0x0
+   [3] = "BagItem 3", 0x0
+
+// -----------------------------
+// Iterate just the leaf nodes :
+
+  ns:test1/ ns1:SimpleProp1 = "Simple1 value", 0x0
+  ns:test1/ ns1:SimpleProp2 = "Simple2 value", 0x50
+  ns:test1/ ns1:SimpleProp2/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:ArrayProp1[1] = "Item1.1 value", 0x0
+  ns:test1/ ns1:ArrayProp1[2] = "Item1.2 value", 0x0
+  ns:test1/ ns1:ArrayProp2[1] = "Item2.1 value", 0x50
+  ns:test1/ ns1:ArrayProp2[1]/?xml:lang = "x-one", 0x20
+  ns:test1/ ns1:ArrayProp2[2] = "Item2.2 value", 0x50
+  ns:test1/ ns1:ArrayProp2[2]/?xml:lang = "x-two", 0x20
+  ns:test1/ ns1:ArrayProp3[1] = "Item3.1 value", 0x50
+  ns:test1/ ns1:ArrayProp3[1]/?xml:lang = "x-one", 0x20
+  ns:test1/ ns1:ArrayProp3[2] = "Item3.2 value", 0x0
+  ns:test1/ ns1:ArrayProp4[1] = "Item4.1 value", 0x0
+  ns:test1/ ns1:ArrayProp4[2] = "Item4.2 value", 0x50
+  ns:test1/ ns1:ArrayProp4[2]/?xml:lang = "x-two", 0x20
+  ns:test1/ ns1:ArrayProp5[1] = "Item5.1 value", 0x50
+  ns:test1/ ns1:ArrayProp5[1]/?xml:lang = "x-xxx", 0x20
+  ns:test1/ ns1:ArrayProp5[2] = "Item5.2 value", 0x50
+  ns:test1/ ns1:ArrayProp5[2]/?xml:lang = "x-xxx", 0x20
+  ns:test1/ ns1:StructProp/ns2:Field1 = "Field1 value", 0x0
+  ns:test1/ ns1:StructProp/ns2:Field2 = "Field2 value", 0x0
+  ns:test1/ ns1:QualProp1 = "Prop value", 0x10
+  ns:test1/ ns1:QualProp1/?ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp2 = "Prop value", 0x50
+  ns:test1/ ns1:QualProp2/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:QualProp2/?ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp3 = "Prop value", 0x50
+  ns:test1/ ns1:QualProp3/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:QualProp3/?ns2:Qual = "Qual value", 0x20
+  ns:test1/ ns1:QualProp4/ns2:Field1 = "Field1 value", 0x0
+  ns:test1/ ns1:QualProp4/ns2:Field2 = "Field2 value", 0x0
+  ns:test1/ ns1:QualProp5[1] = "Item1.1 value", 0x0
+  ns:test1/ ns1:QualProp5[2] = "Item1.2 value", 0x0
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns1:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns2:Field2 = "Field2 value", 0x0
+  ns:test2/ ns2:Prop = "Prop value", 0x0
+  ns:test2/ ns2:Bag[1] = "BagItem 1", 0x0
+  ns:test2/ ns2:Bag[2] = "BagItem 2", 0x0
+  ns:test2/ ns2:Bag[3] = "BagItem 3", 0x0
+
+// -------------------------------
+// Iterate just the schema nodes :
+
+  ns:test1/  = "", 0x80000000
+  ns:test2/  = "", 0x80000000
+
+// ----------------------------
+// Iterate the ns2: namespace :
+
+  ns:test2/  = "", 0x80000000
+  ns:test2/ ns2:NestedStructProp = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns1:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns2:Field2 = "Field2 value", 0x0
+  ns:test2/ ns2:Prop = "Prop value", 0x0
+  ns:test2/ ns2:Bag = "", 0x200
+  ns:test2/ ns2:Bag[1] = "BagItem 1", 0x0
+  ns:test2/ ns2:Bag[2] = "BagItem 2", 0x0
+  ns:test2/ ns2:Bag[3] = "BagItem 3", 0x0
+
+// ------------------
+// Start at ns2:Bag :
+
+  ns:test2/ ns2:Bag = "", 0x200
+  ns:test2/ ns2:Bag[1] = "BagItem 1", 0x0
+  ns:test2/ ns2:Bag[2] = "BagItem 2", 0x0
+  ns:test2/ ns2:Bag[3] = "BagItem 3", 0x0
+
+// -----------------------------------------
+// Start at ns2:NestedStructProp/ns1:Outer :
+
+  ns:test2/ ns2:NestedStructProp/ns1:Outer = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns1:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns2:Field2 = "Field2 value", 0x0
+
+// ----------------------------
+// Iterate an empty namespace :
+
+
+// ------------------------------------------------------------
+// Iterate the top of the ns2: namespace with just leaf names :
+
+  ns:test2/ ns2:NestedStructProp = "", 0x100
+  ns:test2/ ns2:Prop = "Prop value", 0x0
+  ns:test2/ ns2:Bag = "", 0x200
+
+// ----------------------------------------------------------------
+// Iterate the top of the ns2: namespace visiting just leaf nodes :
+
+  ns:test2/ ns2:Prop = "Prop value", 0x0
+
+// --------------------------------------
+// Iterate just the children of ns2:Bag :
+
+  ns:test2/ ns2:Bag[1] = "BagItem 1", 0x0
+  ns:test2/ ns2:Bag[2] = "BagItem 2", 0x0
+  ns:test2/ ns2:Bag[3] = "BagItem 3", 0x0
+
+// -----------------------------------------------------------
+// Iterate just the children of ns2:Bag with just leaf names :
+
+   [1] = "BagItem 1", 0x0
+   [2] = "BagItem 2", 0x0
+   [3] = "BagItem 3", 0x0
+
+// ------------------------------------------------------------------------
+// Iterate just the children of ns2:NestedStructProp/ns1:Outer/ns1:Middle :
+
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner = "", 0x100
+
+// ------------------------------------------------------------
+// Skip children of ArrayProp2, and siblings after StructProp :
+
+  ns:test1/  = "", 0x80000000
+  ns:test1/ ns1:SimpleProp1 = "Simple1 value", 0x0
+  ns:test1/ ns1:SimpleProp2 = "Simple2 value", 0x50
+  ns:test1/ ns1:SimpleProp2/?xml:lang = "x-default", 0x20
+  ns:test1/ ns1:ArrayProp1 = "", 0x200
+  ns:test1/ ns1:ArrayProp1[1] = "Item1.1 value", 0x0
+  ns:test1/ ns1:ArrayProp1[2] = "Item1.2 value", 0x0
+  ns:test1/ ns1:ArrayProp2 = "", 0x1E00
+  ns:test1/ ns1:ArrayProp3 = "", 0xE00
+  ns:test1/ ns1:ArrayProp3[1] = "Item3.1 value", 0x50
+  ns:test1/ ns1:ArrayProp3[1]/?xml:lang = "x-one", 0x20
+  ns:test1/ ns1:ArrayProp3[2] = "Item3.2 value", 0x0
+  ns:test1/ ns1:ArrayProp4 = "", 0xE00
+  ns:test1/ ns1:ArrayProp4[1] = "Item4.1 value", 0x0
+  ns:test1/ ns1:ArrayProp4[2] = "Item4.2 value", 0x50
+  ns:test1/ ns1:ArrayProp4[2]/?xml:lang = "x-two", 0x20
+  ns:test1/ ns1:ArrayProp5 = "", 0x1E00
+  ns:test1/ ns1:ArrayProp5[1] = "Item5.1 value", 0x50
+  ns:test1/ ns1:ArrayProp5[1]/?xml:lang = "x-xxx", 0x20
+  ns:test1/ ns1:ArrayProp5[2] = "Item5.2 value", 0x50
+  ns:test1/ ns1:ArrayProp5[2]/?xml:lang = "x-xxx", 0x20
+  ns:test1/ ns1:StructProp = "", 0x100
+  ns:test2/  = "", 0x80000000
+  ns:test2/ ns2:NestedStructProp = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner = "", 0x100
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns1:Field1 = "Field1 value", 0x0
+  ns:test2/ ns2:NestedStructProp/ns1:Outer/ns1:Middle/ns1:Inner/ns2:Field2 = "Field2 value", 0x0
+  ns:test2/ ns2:Prop = "Prop value", 0x0
+  ns:test2/ ns2:Bag = "", 0x200
+  ns:test2/ ns2:Bag[1] = "BagItem 1", 0x0
+  ns:test2/ ns2:Bag[2] = "BagItem 2", 0x0
+  ns:test2/ ns2:Bag[3] = "BagItem 3", 0x0
+
+// ---------------------------------
+// Iterate without showing aliases :
+
+  http://purl.org/dc/elements/1.1/  = "", 0x80000000
+  http://purl.org/dc/elements/1.1/ dc:creator = "", 0x600
+    ** GetProperty failed: found, "", 0x600
+  http://purl.org/dc/elements/1.1/ dc:creator[1] = "PDF Author", 0x0
+  http://purl.org/dc/elements/1.1/ dc:DCProp = "DC Prop", 0x0
+  http://ns.adobe.com/pdf/1.3/  = "", 0x80000000
+  http://ns.adobe.com/pdf/1.3/ pdf:PDFProp = "PDF Prop", 0x0
+  http://ns.adobe.com/xap/1.0/  = "", 0x80000000
+  http://ns.adobe.com/xap/1.0/ xmp:XMPProp = "XMP Prop", 0x0
+
+// =============================================================================
+// Test XPath composition utilities.
+// =============================================================================
+
+// ------------------
+// Parse simple RDF :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+ComposeArrayItemPath ns1:ArrayProp[2] : ArrayProp[2]
+
+ComposeStructFieldPath ns1:StructProp/ns2:Field3 : StructProp/ns2:Field3
+ComposeQualifierPath ns1:QualProp/?ns2:Qual : QualProp/?ns2:Qual
+
+ComposeQualifierPath ns1:AltTextProp/?xml:lang : AltTextProp/?xml:lang
+ComposeLangSelector ns1:AltTextProp['x-two'] : AltTextProp[?xml:lang="x-two"]
+
+Check field selector usage
+GetProperty ArrayOfStructProp[ns2:Field1='Item-2'] : found, "", 0x100
+GetProperty ArrayOfStructProp[ns2:Field1='Item-2']/ns2:Field2 : found, "Field 2.2 value", 0x0
+ComposeFieldSelector ns1:ArrayOfStructProp[ns2:Field1=Item-2] : ArrayOfStructProp[ns2:Field1="Item-2"]
+ComposeStructFieldPath ns1:ArrayOfStructProp[ns2:Field1=Item-2]/ns2:Field2 : ArrayOfStructProp[ns2:Field1="Item-2"]/ns2:Field2
+
+// ---------------------
+// Modified simple RDF :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "new ns1:ArrayProp[2] value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+         ns2:Field3 = "new ns1:StructProp/ns2:Field3 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "new ns1:QualProp/?ns2:Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E50 : isLangAlt isAlt isOrdered isArray hasLang hasQual)
+            ? xml:lang = "new ns1:alttextprop/?xml:lang value"  (0x20 : isQual)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "new ns1:AltTextProp['x-two'] value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "new ns1:ArrayOfStructProp[ns2:Field1=Item-2]/ns2:Field2 value"
+
+// =============================================================================
+// Test value conversion utilities.
+// =============================================================================
+
+ConverFromBool true : True
+ConverFromBool false : False
+
+ConverToBool kXMP_TrueStr : 1
+ConverToBool kXMP_FalseStr : 0
+
+ConverToBool true : 1
+ConverToBool TRUE : 1
+ConverToBool t : 1
+ConverToBool 1 : 1
+
+ConverToBool false : 0
+ConverToBool FALSE : 0
+ConverToBool f : 0
+ConverToBool 0 : 0
+
+ConverFromInt 0 : 0
+ConverFromInt 42 : 42
+ConverFromInt -42 : -42
+ConverFromInt 0x7FFFFFFF : 2147483647
+ConverFromInt 0x80000000 : -2147483648
+ConverFromInt 0x7FFFFFFF as hex : 7FFFFFFF
+ConverFromInt 0x80000000 as hex : 80000000
+
+ConvertToInt 0 : 0
+ConvertToInt 42 : 42
+ConvertToInt -42 : -42
+ConvertToInt 0x7FFFFFFF : 2147483647
+ConvertToInt 0x80000000 : -2147483648
+ConvertToInt 0x7FFFFFFF as hex : 7FFFFFFF
+ConvertToInt 0x80000000 as hex : 80000000
+
+ConverFromFloat 0 : 0.000000
+ConverFromFloat 4.2 : 4.200000
+ConverFromFloat -4.2 : -4.200000
+ConverFromFloat 0x7FFFFFFF : 2147483647.000000
+ConverFromFloat 0x80000000 : -2147483648.000000
+ConverFromFloat 0x7FFFFFFF as f : 2147483647.000000
+ConverFromFloat 0x80000000 as f : -2147483648.000000
+
+ConvertToFloat 0 : 0.000000
+ConvertToFloat 4.2 : 4.200000
+ConvertToFloat -4.2 : -4.200000
+
+ConvertFromDate 2000 Jan 31 12:34:56 PST : 2000-01-31T12:34:56-08:00
+ConvertToDate : 2000-01-31 12:34:56 -1*08:00 0
+
+// =============================================================================
+// Test date/time utilities and special values.
+// =============================================================================
+
+SetTimeZone : 0-00-00 00:00:00 -1*08:00 0
+CurrentDateTime : 2014-12-05 21:57:19 -1*08:00 0
+ConvertToLocalTime : 2014-12-05 21:57:19 -1*08:00 0
+ConvertToUTCTime : 2014-12-06 05:57:19 0*00:00 0
+
+CompareDateTime with a == b : 0
+CompareDateTime with a < b : -1
+CompareDateTime with a > b : 1
+
+// =============================================================================
+// Test CatenateArrayItems and SeparateArrayItems.
+// =============================================================================
+
+
+// ---------------
+// Initial array :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Array1  (0x200 : isArray)
+         [1] = "one"
+         [2] = "two"
+         [3] = "3, three"
+         [4] = "4; four"
+
+CatenateArrayItems, no commas : one; two; "3, three"; "4; four"
+CatenateArrayItems, allow commas : one ; two ; 3, three ; "4; four"
+
+// ---------------------------------------
+// Set Array1, cat and split into others :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:Array1  (0x200 : isArray)
+         [1] = "one"
+         [2] = "two"
+         [3] = "3, three"
+         [4] = "4; four"
+      ns1:Array2-1  (0x200 : isArray)
+         [1] = "one"
+         [2] = "two"
+         [3] = "3, three"
+         [4] = "4; four"
+      ns1:Array2-2  (0x200 : isArray)
+         [1] = "one"
+         [2] = "two"
+         [3] = "3, three"
+         [4] = "4; four"
+      ns1:Array3-1  (0x600 : isOrdered isArray)
+         [1] = "one"
+         [2] = "two"
+         [3] = "3"
+         [4] = "three"
+         [5] = "4; four"
+      ns1:Array3-2  (0x600 : isOrdered isArray)
+         [1] = "one"
+         [2] = "two"
+         [3] = "3, three"
+         [4] = "4; four"
+
+// =============================================================================
+// Test RemoveProperties and AppendProperties.
+// =============================================================================
+
+// --------------------------------
+// Parse simple RDF, add ns2:Prop :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:Prop = "value"
+
+// ------------------------------
+// Remove ns1:ArrayOfStructProp :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:Prop = "value"
+
+// --------------------
+// Remove all of ns1: :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:Prop = "value"
+
+// ------------------------------------------------------------
+// Set xmp:CreatorTool (internal) and xmp:Nickname (external) :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:Prop = "value"
+
+   xmp:  http://ns.adobe.com/xap/1.0/  (0x80000000 : schema)
+      xmp:CreatorTool = "XMPCoverage"
+      xmp:Nickname = "TXMP test"
+
+// --------------------------------
+// Remove all external properties :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   xmp:  http://ns.adobe.com/xap/1.0/  (0x80000000 : schema)
+      xmp:CreatorTool = "XMPCoverage"
+
+// -------------------------------------------
+// Remove all properties, including internal :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+// --------------------------------------------
+// Set xmp:CreatorTool and xmp:Nickname again :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   xmp:  http://ns.adobe.com/xap/1.0/  (0x80000000 : schema)
+      xmp:CreatorTool = "XMPCoverage"
+      xmp:Nickname = "TXMP test"
+
+// ---------------------------------------
+// Create 2nd XMP object with new values :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   xmp:  http://ns.adobe.com/xap/1.0/  (0x80000000 : schema)
+      xmp:CreatorTool = "new CreatorTool"
+      xmp:Nickname = "new Nickname"
+
+   dc:  http://purl.org/dc/elements/1.1/  (0x80000000 : schema)
+      dc:format = "new Format"
+
+// ------------------------------------------------------
+// Append 2nd to 1st, keeping old values, external only :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   xmp:  http://ns.adobe.com/xap/1.0/  (0x80000000 : schema)
+      xmp:CreatorTool = "XMPCoverage"
+      xmp:Nickname = "TXMP test"
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+// ------------------------------------------------------
+// Append 2nd to 1st, keeping old values, internal also :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   xmp:  http://ns.adobe.com/xap/1.0/  (0x80000000 : schema)
+      xmp:CreatorTool = "XMPCoverage"
+      xmp:Nickname = "TXMP test"
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   dc:  http://purl.org/dc/elements/1.1/  (0x80000000 : schema)
+      dc:format = "newer Format"
+
+// --------------------------------------------------------
+// Append 2nd to 1st, replacing old values, external only :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   xmp:  http://ns.adobe.com/xap/1.0/  (0x80000000 : schema)
+      xmp:CreatorTool = "XMPCoverage"
+      xmp:Nickname = "newest Nickname"
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   dc:  http://purl.org/dc/elements/1.1/  (0x80000000 : schema)
+      dc:format = "newer Format"
+
+// --------------------------------------------------------
+// Append 2nd to 1st, replacing old values, internal also :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   xmp:  http://ns.adobe.com/xap/1.0/  (0x80000000 : schema)
+      xmp:CreatorTool = "final CreatorTool"
+      xmp:Nickname = "final Nickname"
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   dc:  http://purl.org/dc/elements/1.1/  (0x80000000 : schema)
+      dc:format = "final Format"
+
+// =============================================================================
+// Test DuplicateSubtree.
+// =============================================================================
+
+// -----------------------------------------
+// DuplicateSubtree to default destination :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+// -------------------------------------------
+// DuplicateSubtree to different destination :
+
+Dumping XMPMeta object ""  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:NewAoS  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+// ----------------------------------------------------------
+// DuplicateSubtree to different destination in same object :
+
+Dumping XMPMeta object "Test:XMPCoreCoverage/kSimpleRDF"  (0x0)
+
+   ns1:  ns:test1/  (0x80000000 : schema)
+      ns1:SimpleProp = "Simple value"
+      ns1:ArrayProp  (0x200 : isArray)
+         [1] = "Item1 value"
+         [2] = "Item2 value"
+      ns1:StructProp  (0x100 : isStruct)
+         ns2:Field1 = "Field1 value"
+         ns2:Field2 = "Field2 value"
+      ns1:QualProp = "Prop value"  (0x10 : hasQual)
+            ? ns2:Qual = "Qual value"  (0x20 : isQual)
+      ns1:AltTextProp  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+         [1] = "x-one value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-one"  (0x20 : isQual)
+         [2] = "x-two value"  (0x50 : hasLang hasQual)
+               ? xml:lang = "x-two"  (0x20 : isQual)
+      ns1:ArrayOfStructProp  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+   ns2:  ns:test2/  (0x80000000 : schema)
+      ns2:NewAoS  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            ns2:Field1 = "Item-1"
+            ns2:Field2 = "Field 1.2 value"
+         [2]  (0x100 : isStruct)
+            ns2:Field1 = "Item-2"
+            ns2:Field2 = "Field 2.2 value"
+
+// =============================================================================
+// Test EncodeToBase64 and DecodeFromBase64.
+// =============================================================================
+
+Encoded sequence (should be A-Za-z0-9+/) : ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+
+// =============================================================================
+// XMPCoreCoverage done.
+// =============================================================================
+
+XMPCoreCoverage finished Fri Dec  5 21:57:19 2014
+Final status = 0

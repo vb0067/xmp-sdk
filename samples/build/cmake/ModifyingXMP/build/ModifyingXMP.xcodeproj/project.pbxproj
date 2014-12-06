@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              F548C36BCD004963A345333F /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 71B34D3613B84DEC845CF69D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            C2466E7BF78D47CEBD2CC974 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            59C1C76B7B7D468BAB1213E8 /* PBXTargetDependency */,
+                            089A479DB38445ADABFE1C7D /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              F4D2FCDD5CD94CC9A8B14461 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AFB1735D6BEC4053A7D25E85 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            BACB829CBC974DAABF63F934 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+85740F04DA74417EA13047DD /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 211D0F4AF92E4239AC8B1B21 /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+0733292418C64C458CF88E3D /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ModifyingXMP.cpp */ = {isa = PBXBuildFile; fileRef = 3D8866E746544F299CE76D4B /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ModifyingXMP.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              6DBA5416971F49D882368723 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              01BB9960681C4357B5967DD6 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              E9672006A1494139A6EC61B9 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              BBF26EABE9C44B7BB1CFFC0E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2B10FD0B2939492E8D24C28A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7528C92EA9B24272A187F947;
+                     remoteInfo = ModifyingXMP;
+              };
+              D0C56B45D0274E5B9667934B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2B10FD0B2939492E8D24C28A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F4D2FCDD5CD94CC9A8B14461;
+                     remoteInfo = ZERO_CHECK;
+              };
+              099AC6ED804644E38643FDFF /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2B10FD0B2939492E8D24C28A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F4D2FCDD5CD94CC9A8B14461;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+211D0F4AF92E4239AC8B1B21 /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+3D8866E746544F299CE76D4B /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ModifyingXMP.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ModifyingXMP.cpp"; path = "../../../source/ModifyingXMP.cpp"; sourceTree = SOURCE_ROOT; };
+76E1319880714D159C8BEC1E /* ModifyingXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ModifyingXMP; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              3F50C3C2E820458C9C035180  = {
+                     isa = PBXGroup;
+                     children = (
+                            9F575A9773334AEDA98B9843 /* Sources */,
+                            55CB69506B824D2591EEE9F3 /* Resources */,
+                            A61EA86016E245B5900611F9 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              9F575A9773334AEDA98B9843 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            46369109FB1D418A878273AF /* ALL_BUILD */,
+                            8961ED2F0D6849D7B9538280 /* ModifyingXMP */,
+                            F394CF7CDAFB48EA9350CDF6 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              55CB69506B824D2591EEE9F3 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              46369109FB1D418A878273AF /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B3262F88A75146CAACB1E30F /* CMake Rules */,
+                            211D0F4AF92E4239AC8B1B21 /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              B3262F88A75146CAACB1E30F /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              8961ED2F0D6849D7B9538280 /* ModifyingXMP */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AB824E764A9C45F1AA443B7C /* DumpFile */,
+                            211D0F4AF92E4239AC8B1B21 /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/CMakeLists.txt */,
+                     );
+                     name = ModifyingXMP;
+                     sourceTree = "<group>";
+              };
+              AB824E764A9C45F1AA443B7C /* DumpFile */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3D8866E746544F299CE76D4B /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ModifyingXMP.cpp */,
+                     );
+                     name = DumpFile;
+                     sourceTree = "<group>";
+              };
+              F394CF7CDAFB48EA9350CDF6 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8FECC8F6276D45F0B9BA4BD6 /* CMake Rules */,
+                            211D0F4AF92E4239AC8B1B21 /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              8FECC8F6276D45F0B9BA4BD6 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              A61EA86016E245B5900611F9 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            76E1319880714D159C8BEC1E /* ModifyingXMP */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              7528C92EA9B24272A187F947 /* ModifyingXMP */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = A7A4BB1D57D543A4AD819C20 /* Build configuration list for PBXNativeTarget "ModifyingXMP" */;
+                     buildPhases = (
+                            33CBF615D28A45BC9E232CAA /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            BBCC10AAAC8044A193542E46 /* PBXTargetDependency */,
+                     );
+                     name = ModifyingXMP;
+                     productName = ModifyingXMP;
+                     productReference = 76E1319880714D159C8BEC1E /* ModifyingXMP */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              2B10FD0B2939492E8D24C28A /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 6156FC2B5EB94B18857E9A89 /* Build configuration list for PBXProject  "ModifyingXMP" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            01BB9960681C4357B5967DD6 /* Debug */,
+                            E9672006A1494139A6EC61B9 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 3F50C3C2E820458C9C035180;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            F548C36BCD004963A345333F /* ALL_BUILD */,
+                            7528C92EA9B24272A187F947 /* ModifyingXMP */,
+                            F4D2FCDD5CD94CC9A8B14461 /* ZERO_CHECK */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              D9A5339E40974712BCF2BDF2 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              C2466E7BF78D47CEBD2CC974 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build -f /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              15CE6D68631F4ADDA0485227 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              BACB829CBC974DAABF63F934 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build -f /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              33CBF615D28A45BC9E232CAA /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            0733292418C64C458CF88E3D /* /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ModifyingXMP.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              59C1C76B7B7D468BAB1213E8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7528C92EA9B24272A187F947 /* ModifyingXMP */;
+                     targetProxy = BBF26EABE9C44B7BB1CFFC0E /* PBXContainerItemProxy */;
+              };
+              089A479DB38445ADABFE1C7D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F4D2FCDD5CD94CC9A8B14461 /* ZERO_CHECK */;
+                     targetProxy = D0C56B45D0274E5B9667934B /* PBXContainerItemProxy */;
+              };
+              BBCC10AAAC8044A193542E46 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F4D2FCDD5CD94CC9A8B14461 /* ZERO_CHECK */;
+                     targetProxy = 099AC6ED804644E38643FDFF /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              84C320C1484446BEBF90FCB2 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_VERSION = "com.apple.compilers.llvm.clang.1_0";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build/build";
+                     };
+                     name = Debug;
+              };
+              E4E3E893A3A340839E05D203 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_VERSION = "com.apple.compilers.llvm.clang.1_0";
+                            MACOSX_DEPLOYMENT_TARGET = "10.6";
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build/build";
+                     };
+                     name = Release;
+              };
+              6A7D402AFA954B49A137F291 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'MAC_ENV=1'", "'XMP_64=0'", "'XMP_StaticBuild=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../..", "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              1B93BE13A7D845ECB997ED93 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'MAC_ENV=1'", "'XMP_64=0'", "'XMP_StaticBuild=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../..", "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5D429DB0010D4F519CAB73EB /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'MAC_ENV=1'", "'XMP_64=0'", "'XMP_StaticBuild=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../..", "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter       -DDEBUG=1 -D_DEBUG=1  ";
+                            OTHER_CPLUSPLUSFLAGS = "-funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter       -DDEBUG=1 -D_DEBUG=1  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libXMPCoreStatic.a /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libXMPFilesStatic.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ModifyingXMP;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              68747D99E09C4229B2819A7B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Release";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'MAC_ENV=1'", "'XMP_64=0'", "'XMP_StaticBuild=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../..", "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter       -DNDEBUG=1 -D_NDEBUG=1  ";
+                            OTHER_CPLUSPLUSFLAGS = "-funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter       -DNDEBUG=1 -D_NDEBUG=1  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libXMPCoreStatic.a /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libXMPFilesStatic.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ModifyingXMP;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C1C1ACC236384E189EE58D6B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'MAC_ENV=1'", "'XMP_64=0'", "'XMP_StaticBuild=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../..", "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              BB99DE6CDE5E4DFD9B47D35C /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'MAC_ENV=1'", "'XMP_64=0'", "'XMP_StaticBuild=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../..", "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              6156FC2B5EB94B18857E9A89 /* Build configuration list for PBXProject  "ModifyingXMP" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            84C320C1484446BEBF90FCB2 /* Debug */,
+                            E4E3E893A3A340839E05D203 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              71B34D3613B84DEC845CF69D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            6A7D402AFA954B49A137F291 /* Debug */,
+                            1B93BE13A7D845ECB997ED93 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A7A4BB1D57D543A4AD819C20 /* Build configuration list for PBXNativeTarget "ModifyingXMP" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5D429DB0010D4F519CAB73EB /* Debug */,
+                            68747D99E09C4229B2819A7B /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AFB1735D6BEC4053A7D25E85 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C1C1ACC236384E189EE58D6B /* Debug */,
+                            BB99DE6CDE5E4DFD9B47D35C /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 2B10FD0B2939492E8D24C28A;
+}

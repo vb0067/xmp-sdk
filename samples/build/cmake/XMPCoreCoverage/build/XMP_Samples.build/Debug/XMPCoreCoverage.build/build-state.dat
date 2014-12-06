@@ -1,0 +1,179 @@
+TXMPCoreCoverage
+v6
+r1
+cCheck dependencies
+cCompileC XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/XMPCoreCoverage normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000531E748700000000000000AA
+t1394504839
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052A3B560000000000000044C
+t1386460512
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E747000000000000001DE
+t1394504816
+s478
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.LinkFileList
+c0000000054829ABE00000000000000B0
+t1417845438
+s176
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.o
+t1417845439
+s270892
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp
+c0000000051C900020000000000011F81
+t1372127234
+s73601
+
+N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/XMPCoreCoverage
+t2
+s0
+
+CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7903b83ed232ba41^2c64ba3ed232ba41^---0#1#1#--18"Check dependencies36"6D7F8E19-3708-4C14-BD68-0283FBC82AE2-
+
+CCompileC XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439538238.728724
+e439538239.205666
+r1
+xCompileC
+xXMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.o
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPIterator.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPIterator.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPUtils.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPMeta.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPMeta.hpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPIterator.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPUtils.incl_cpp
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:387:55: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+o                                fprintf ( log, "** Wrong newline at offset %d\n", i );
+o                                                                           ~~     ^
+o                                                                           %lu
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1090:50: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+o                fprintf ( log, "Thumbnailpad adds %d bytes\n", tmpStr2.size()-tmpStr1.size() );
+o                                                  ~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o                                                  %lu
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1095:55: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+o                fprintf ( log, "Minimum packet size is %d bytes\n", minSize );
+o                                                       ~~           ^~~~~~~
+o                                                       %lu
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1099:60: warning: format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long') [-Wformat]
+o                fprintf ( log, "Minimum+1234 packet size is %d bytes\n", tmpStr1.size() );
+o                                                            ~~           ^~~~~~~~~~~~~~
+o                                                            %lu
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1104:57: warning: format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long') [-Wformat]
+o                fprintf ( log, "Minimum+0 packet size is %d bytes\n", tmpStr1.size() );
+o                                                         ~~           ^~~~~~~~~~~~~~
+o                                                         %lu
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1110:80: warning: format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long') [-Wformat]
+o                        fprintf ( log, "#ERROR: No exception for minimum-1, size is %d bytes **\n", tmpStr1.size() );
+o                                                                                    ~~              ^~~~~~~~~~~~~~
+o                                                                                    %lu
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1537:42: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+o        fprintf ( log, "ConvertToInt 0 : %d\n", int1 );
+o                                         ~~     ^~~~
+o                                         %ld
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1539:43: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+o        fprintf ( log, "ConvertToInt 42 : %d\n", int1 );
+o                                          ~~     ^~~~
+o                                          %ld
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1541:44: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+o        fprintf ( log, "ConvertToInt -42 : %d\n", int1 );
+o                                           ~~     ^~~~
+o                                           %ld
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1543:51: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+o        fprintf ( log, "ConvertToInt 0x7FFFFFFF : %d\n", int1 );
+o                                                  ~~     ^~~~
+o                                                  %ld
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1545:51: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+o        fprintf ( log, "ConvertToInt 0x80000000 : %d\n", int1 );
+o                                                  ~~     ^~~~
+o                                                  %ld
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1547:58: warning: format specifies type 'unsigned int' but the argument has type 'long' [-Wformat]
+o        fprintf ( log, "ConvertToInt 0x7FFFFFFF as hex : %X\n", int1 );
+o                                                         ~~     ^~~~
+o                                                         %lX
+o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1549:58: warning: format specifies type 'unsigned int' but the argument has type 'long' [-Wformat]
+o        fprintf ( log, "ConvertToInt 0x80000000 as hex : %X\n", int1 );
+o                                                         ~~     ^~~~
+o                                                         %lX
+o13 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp259"CompileC XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler0da5ba3ed232ba41^a8a6343fd232ba41^-5195"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:387:55: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]                                fprintf ( log, "** Wrong newline at offset %d\n", i );                                                                           ~~     ^                                                                           %lu/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1090:50: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]                fprintf ( log, "Thumbnailpad adds %d bytes\n", tmpStr2.size()-tmpStr1.size() );                                                  ~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                  %lu/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1095:55: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]                fprintf ( log, "Minimum packet size is %d bytes\n", minSize );                                                       ~~           ^~~~~~~                                                       %lu/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1099:60: warning: format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long') [-Wformat]                fprintf ( log, "Minimum+1234 packet size is %d bytes\n", tmpStr1.size() );                                                            ~~           ^~~~~~~~~~~~~~                                                            %lu/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1104:57: warning: format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long') [-Wformat]                fprintf ( log, "Minimum+0 packet size is %d bytes\n", tmpStr1.size() );                                                         ~~           ^~~~~~~~~~~~~~                                                         %lu/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1110:80: warning: format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long') [-Wformat]                        fprintf ( log, "#ERROR: No exception for minimum-1, size is %d bytes **\n", tmpStr1.size() );                                                                                    ~~              ^~~~~~~~~~~~~~                                                                                    %lu/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1537:42: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]        fprintf ( log, "ConvertToInt 0 : %d\n", int1 );                                         ~~     ^~~~                                         %ld/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1539:43: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]        fprintf ( log, "ConvertToInt 42 : %d\n", int1 );                                          ~~     ^~~~                                          %ld/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1541:44: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]        fprintf ( log, "ConvertToInt -42 : %d\n", int1 );                                           ~~     ^~~~                                           %ld/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1543:51: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]        fprintf ( log, "ConvertToInt 0x7FFFFFFF : %d\n", int1 );                                                  ~~     ^~~~                                                  %ld/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1545:51: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]        fprintf ( log, "ConvertToInt 0x80000000 : %d\n", int1 );                                                  ~~     ^~~~                                                  %ld/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1547:58: warning: format specifies type 'unsigned int' but the argument has type 'long' [-Wformat]        fprintf ( log, "ConvertToInt 0x7FFFFFFF as hex : %X\n", int1 );                                                         ~~     ^~~~                                                         %lX/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp:1549:58: warning: format specifies type 'unsigned int' but the argument has type 'long' [-Wformat]        fprintf ( log, "ConvertToInt 0x80000000 as hex : %X\n", int1 );                                                         ~~     ^~~~                                                         %lX13 warnings generated.13(36%IDEClangDiagnosticActivityLogMessage2@84"Format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long')-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^386#54#386#54#13383#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^386#54#386#55#13383#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^386#47#386#49#13376#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^386#47#386#49#13376#2#-2@69"Format specifies type 'int' but the argument has type 'unsigned long'-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1089#49#1089#49#41824#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1089#49#1089#78#41824#28#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1089#36#1089#38#41811#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1089#36#1089#38#41811#2#-2@84"Format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long')-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1094#54#1094#54#42028#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1094#54#1094#61#42028#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1094#41#1094#43#42015#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1094#41#1094#43#42015#2#-2@87"Format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long')-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1098#59#1098#59#42197#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1098#59#1098#73#42197#13#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1098#46#1098#48#42184#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1098#46#1098#48#42184#2#-2@87"Format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long')-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1103#56#1103#56#42455#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1103#56#1103#70#42455#13#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1103#43#1103#45#42442#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1103#43#1103#45#42442#2#-2@87"Format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long')-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1109#79#1109#79#42737#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1109#79#1109#93#42737#13#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1109#63#1109#65#42721#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1109#63#1109#65#42721#2#-2@60"Format specifies type 'int' but the argument has type 'long'-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1536#41#1536#41#60537#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1536#41#1536#45#60537#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1536#34#1536#36#60530#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1536#34#1536#36#60530#2#-2@60"Format specifies type 'int' but the argument has type 'long'-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1538#42#1538#42#60629#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1538#42#1538#46#60629#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1538#35#1538#37#60622#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1538#35#1538#37#60622#2#-2@60"Format specifies type 'int' but the argument has type 'long'-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1540#43#1540#43#60723#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1540#43#1540#47#60723#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1540#36#1540#38#60716#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1540#36#1540#38#60716#2#-2@60"Format specifies type 'int' but the argument has type 'long'-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1542#50#1542#50#60831#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1542#50#1542#54#60831#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1542#43#1542#45#60824#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1542#43#1542#45#60824#2#-2@60"Format specifies type 'int' but the argument has type 'long'-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1544#50#1544#50#60939#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1544#50#1544#54#60939#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1544#43#1544#45#60932#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1544#43#1544#45#60932#2#-2@69"Format specifies type 'unsigned int' but the argument has type 'long'-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1546#57#1546#57#61054#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1546#57#1546#61#61054#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1546#50#1546#52#61047#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1546#50#1546#52#61047#2#-2@69"Format specifies type 'unsigned int' but the argument has type 'long'-439538239#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1548#57#1548#57#61169#0#19"Format String Issue3(3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1548#57#1548#61#61169#0#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1548#50#1548#52#61162#2#3@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^1548#50#1548#52#61162#2#-0#0#1#-19%DVTDocumentLocation4@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp0000000000000000^3088"CompileC XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/XMPCoreCoverage.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.o36"A6D9D66A-4AC0-46E9-A605-CB62CC1D0824-
+bD155E02F-5094-4BC2-A3AC-7EC02021384C
+
+CLd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/XMPCoreCoverage normal i386
+s439538239.206293
+e439538239.267899
+r1
+xLd
+x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/XMPCoreCoverage
+xnormal
+xi386
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.o
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
+d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/XMPCoreCoverage117"Ld /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/XMPCoreCoverage normal i38672dd343fd232ba41^3197443fd232ba41^---0#0#1#--1523"Ld /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/XMPCoreCoverage normal i386    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export MACOSX_DEPLOYMENT_TARGET=10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -filelist /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a -Xlinker -dependency_info -Xlinker /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/XMP_Samples.build/Debug/XMPCoreCoverage.build/Objects-normal/i386/XMPCoreCoverage_dependency_info.dat -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/XMPCoreCoverage36"C7D328F5-6E0F-4648-B0FB-A3EDE56F78F5-
+bD155E02F-5094-4BC2-A3AC-7EC02021384C
+

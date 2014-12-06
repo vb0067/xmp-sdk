@@ -1,0 +1,51 @@
+XMPFilesCoverage starting Fri Dec  5 21:57:37 2014
+Version :
+   XMP Core 5.5.0
+   XMP Files 5.6.0
+
+// ----------------------------------------------
+// Dump file format constants and handler flags :
+
+kXMP_PDFFile = " FDP", dumb, flags = 0x0
+kXMP_PostScriptFile = "  SP", smart, flags = 0x227F
+kXMP_EPSFile = " SPE", smart, flags = 0x227F
+kXMP_JPEGFile = "GEPJ", smart, flags = 0x27F
+kXMP_JPEG2KFile = " XPJ", dumb, flags = 0x0
+kXMP_TIFFFile = "FFIT", smart, flags = 0x227F
+kXMP_GIFFile = " FIG", dumb, flags = 0x0
+kXMP_PNGFile = " GNP", smart, flags = 0x46B
+kXMP_MOVFile = " VOM", smart, flags = 0x227F
+kXMP_AVIFile = " IVA", smart, flags = 0x7B
+kXMP_CINFile = " NIC", dumb, flags = 0x0
+kXMP_WAVFile = " VAW", smart, flags = 0x225B
+kXMP_MP3File = " 3PM", smart, flags = 0x7B
+kXMP_SESFile = " SES", dumb, flags = 0x0
+kXMP_CELFile = " LEC", dumb, flags = 0x0
+kXMP_MPEGFile = "GEPM", smart, flags = 0xB67
+kXMP_MPEG2File = " 2PM", smart, flags = 0xB67
+kXMP_WMAVFile = "VAMW", smart, flags = 0x247B
+kXMP_HTMLFile = "LMTH", dumb, flags = 0x0
+kXMP_XMLFile = " LMX", dumb, flags = 0x0
+kXMP_TextFile = "txet", dumb, flags = 0x0
+kXMP_PhotoshopFile = " DSP", smart, flags = 0x227F
+kXMP_IllustratorFile = "  IA", dumb, flags = 0x0
+kXMP_InDesignFile = "DDNI", smart, flags = 0x26E
+kXMP_AEProjectFile = " PEA", dumb, flags = 0x0
+kXMP_AEFilterPresetFile = " XFF", dumb, flags = 0x0
+kXMP_EncoreProjectFile = "ROCN", dumb, flags = 0x0
+kXMP_PremiereProjectFile = "JPRP", dumb, flags = 0x0
+kXMP_PremiereTitleFile = "LTRP", dumb, flags = 0x0
+kXMP_UnknownFile = "    ", dumb, flags = 0x0
+
+// ------------------------------------------
+// Testing ../../../testfiles/BlueSquare.ai :
+
+Failed to get a smart handler
+Failed to get a smart handler
+Initial XMP from ../../../testfiles/BlueSquare.ai
+Dumping XMPMeta object ""  (0x0)
+
+Caught XMP_Error 3 : XMPFiles::PutXMP - No open file
+
+XMPFilesCoverage finished Fri Dec  5 21:57:37 2014
+Final status = -2

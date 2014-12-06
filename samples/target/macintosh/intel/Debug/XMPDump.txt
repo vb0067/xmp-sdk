@@ -1,0 +1,26 @@
+Dumping XMPMeta object ""  (0x0)
+
+   xsdkEdit:  http://ns.adobe/meta/sdk/Edit/  (0x80000000 : schema)
+      xsdkEdit:DocumentUsers  (0x200 : isArray)
+         [1]  (0x100 : isStruct)
+            xsdkUser:User = "John Smith"  (0x10 : hasQual)
+                  ? xsdkUser:Role = "Dev Engineer"  (0x20 : isQual)
+            xsdkUser:DUID = "2"
+            xsdkUser:ContactDetails  (0x100 : isStruct)
+               xsdkUser:Email  (0xE00 : isAlt isOrdered isArray)
+                  [1] = "js@adobe.meta.com"
+                  [2] = "js@adobe.home.com"
+               xsdkUser:Telephone  (0x200 : isArray)
+                  [1] = "89112"
+                  [2] = "84432"
+               xsdkUser:BaseLocation = "London"
+      xsdkEdit:DocumentEdit  (0x600 : isOrdered isArray)
+         [1]  (0x100 : isStruct)
+            xsdkEdit:EditDate = "2014-12-05T21:51:59-08:00"
+            xsdkEdit:DUID = "2"
+            xsdkEdit:EditComments  (0x1E00 : isLangAlt isAlt isOrdered isArray)
+               [1] = "Document created."  (0x50 : hasLang hasQual)
+                     ? xml:lang = "x-default"  (0x20 : isQual)
+               [2] = "Document created."  (0x50 : hasLang hasQual)
+                     ? xml:lang = "en-US"  (0x20 : isQual)
+            xsdkEdit:EditTool = "FrameXML"
