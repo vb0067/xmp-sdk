@@ -1,4 +1,4 @@
-# Install script for directory: /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build
+# Install script for directory: /Users/yu/git/xmp-sdk/XMPFiles/build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

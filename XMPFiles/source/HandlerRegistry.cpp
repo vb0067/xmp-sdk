@@ -14,10 +14,6 @@
 
 #include "XMPFiles/source/HandlerRegistry.h"
 
-#if EnablePluginManager
-	#include "XMPFiles/source/PluginHandler/XMPAtoms.h"
-#endif
-
 #if EnablePhotoHandlers
 	#include "XMPFiles/source/FileHandlers/JPEG_Handler.hpp"
 	#include "XMPFiles/source/FileHandlers/PSD_Handler.hpp"
@@ -52,10 +48,6 @@
 //#endif
 
 using namespace Common;
-
-#if EnablePluginManager
-	using namespace XMP_PLUGIN;
-#endif
 
 // =================================================================================================
 
@@ -381,12 +373,7 @@ XMP_FileFormat HandlerRegistry::getFileFormat( const std::string & fileExt, bool
 			if ( fileExt == kFileExtMap[i].ext ) return kFileExtMap[i].format;
 		}
 	}
-
-	#if EnablePluginManager
-		return ResourceParser::getPluginFileFormat ( fileExt, addIfNotFound );
-	#else
 		return kXMP_UnknownFile;
-	#endif
 }
 
 // =================================================================================================

@@ -44,11 +44,9 @@
 		057A4C493DB345B6BD99F716 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = B71DFCE4ADE34DB1A052C7F9 /* inftrees.c */; settings = {COMPILER_FLAGS = ""; }; };
 		09F48282490E4CDD959A3E3C /* IChunkBehavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFBFEC29C0034A9C911B502A /* IChunkBehavior.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		0F8F0907EE3541A08DC52250 /* XMPMeta-Parse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E0B8942EE4919A7D69F12 /* XMPMeta-Parse.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		179E623ACF644F0A833BF0B1 /* HostAPIImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B591276680C4FCE817DA45D /* HostAPIImpl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		189531E9F6EF4B3CBA40EBDE /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B546A33F125418CBA2DD637 /* uncompr.c */; settings = {COMPILER_FLAGS = ""; }; };
 		1947183AA968481DB112DFA9 /* AIFF_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD60A9D76394E86B26E079C /* AIFF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		1EE3CCD621EB48E083EECBFE /* XIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24D4C03D2BEC4CAD96DAEA39 /* XIO.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		1F7378479BDD45DF95638A90 /* PluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3ECAE64FB2B4337911A04C2 /* PluginManager.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		1FDD9D3088C6487CA0968E33 /* AIFFMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDEE31F840584B96BD540772 /* AIFFMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		205C2DA1E60945148DC4E315 /* AIFFReconcile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 563D58A03230457BB81F6371 /* AIFFReconcile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		210C676FCABE4C5391BFD93F /* MD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05353AD33DA1475FAA96D5DD /* MD5.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -77,7 +75,6 @@
 		4DB283D44C194C1E9CEA5DF2 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 502CBA2C57514F518942F170 /* inflate.c */; settings = {COMPILER_FLAGS = ""; }; };
 		51EEC8BE483248E883BA9C57 /* MPEG4_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CD36F8526614338B5212D2E /* MPEG4_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		5455C184EBDE44D39BF71E15 /* MetadataSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF61466B0253486AB6EA6DE6 /* MetadataSet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		55D06DA46A1F4E97B663FF84 /* XMPAtoms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D782C73441254C77900EB046 /* XMPAtoms.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		58DF911E08C94B249AB3D094 /* SWF_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F03A5597319D4430B06FC02D /* SWF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		5A8F384FEA0A42DFAD36714F /* TIFF_FileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1F727611F745BFBB484929 /* TIFF_FileWriter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		630AF7B3A0854D87A51CA26F /* Host_IO-POSIX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A043A2565452473C812DC4C4 /* Host_IO-POSIX.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -122,7 +119,6 @@
 		C33D84006D1E443E9D70372C /* FLV_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2E303FEF7468AB80526BD /* FLV_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		C5A224325C804505B9C7CE14 /* ExpatAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B35E9A2863CC48B8863176C1 /* ExpatAdapter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		C9AAD5AB3BB24B40A5C3A4C8 /* PSIR_FileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8937FD10BB12451C96A7759B /* PSIR_FileWriter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		C9BD1A4EF131489AAF06B70C /* FileHandlerInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8FCBA817436494F8CA3550A /* FileHandlerInstance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		CE5B8B55350A43F191C25BFA /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = FE48FC5EACC647F98F545FDC /* compress.c */; settings = {COMPILER_FLAGS = ""; }; };
 		CF979B2EC3B449DFB4AE2186 /* Basic_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07A62561ECD4D02BE4F2316 /* Basic_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		D050AA3B819A42F0971A2215 /* XMPMeta-GetSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92EB7208E2E84C158D4F5D3C /* XMPMeta-GetSet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -132,7 +128,6 @@
 		DAF7847635EC42438DAF6AE7 /* MP3_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB70D9D3DE56433D9CB38867 /* MP3_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		DE844132DAD74F4AA54E1FFA /* HandlerRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99F08138174D4384A36FF3FA /* HandlerRegistry.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		DEA6D0FE53B24A85A39F05C4 /* XMP_LibUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4A927CC490E4A9AACAE1BBE /* XMP_LibUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		DEBCB578ABC8424382291DAC /* Module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E27C8839624A2FBCBA29AC /* Module.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		DEC8BF5AAEEF401F8393875D /* XMP_LibUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEE8245B7CA942EAAD3BF2CE /* XMP_LibUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		E32B9067028F4E8EABDB51F9 /* XMPScanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EE8A817804920B22CE832 /* XMPScanner.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		E463B3392D534B20BC1765DF /* PSD_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1222BECF9DF048C1A265EB5E /* PSD_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -144,7 +139,6 @@
 		F698704386A94B2182961EF2 /* Trivial_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E42834267CB45978034123F /* Trivial_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		F758437AB19C4E56A50E3DD0 /* XMPCore_Impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E93A4AE13794637A8EBB930 /* XMPCore_Impl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		F7F1BCAD98CE4996B661263A /* xmltok.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A7FF7E6734C67B07D3FF1 /* xmltok.c */; settings = {COMPILER_FLAGS = ""; }; };
-		F862AAB701E346A2B9EB90EE /* OS_Utils_Mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32372A3C7F6B4147B8BFA0E8 /* OS_Utils_Mac.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		F8ACB15DA7A04D2488324FF1 /* xmlparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 567990671DC241F99464ECE4 /* xmlparse.c */; settings = {COMPILER_FLAGS = ""; }; };
 		F99A4713EE78459AA8DC9103 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = CC525EF2A3F540B7BAC7C913 /* adler32.c */; settings = {COMPILER_FLAGS = ""; }; };
 		FAAD44174981492CBEF0790F /* WXMPFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4967BD177A034479BA6E5E65 /* WXMPFiles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -192,14 +186,12 @@
 		0967F60C4D3146988A08E9E1 /* DISPMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DISPMetadata.h; path = ../XMPFiles/source/FormatSupport/WAVE/DISPMetadata.h; sourceTree = SOURCE_ROOT; };
 		0A8EE8A817804920B22CE832 /* XMPScanner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPScanner.cpp; path = ../XMPFiles/source/FormatSupport/XMPScanner.cpp; sourceTree = SOURCE_ROOT; };
 		0AC3239714624157940D5BD4 /* Basic_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Basic_Handler.hpp; path = ../XMPFiles/source/FileHandlers/Basic_Handler.hpp; sourceTree = SOURCE_ROOT; };
-		0B591276680C4FCE817DA45D /* HostAPIImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HostAPIImpl.cpp; path = ../XMPFiles/source/PluginHandler/HostAPIImpl.cpp; sourceTree = SOURCE_ROOT; };
 		0E6982EAB6594662AC45673B /* libXMPCoreStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libXMPCoreStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F392EE4B1A44E7E863793AA /* RIFF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RIFF_Handler.hpp; path = ../XMPFiles/source/FileHandlers/RIFF_Handler.hpp; sourceTree = SOURCE_ROOT; };
 		0F69CCC556854F14AD5EE63A /* XDCAM_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XDCAM_Handler.cpp; path = ../XMPFiles/source/FileHandlers/XDCAM_Handler.cpp; sourceTree = SOURCE_ROOT; };
 		0FB6890D398B474881301EFE /* P2_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = P2_Handler.cpp; path = ../XMPFiles/source/FileHandlers/P2_Handler.cpp; sourceTree = SOURCE_ROOT; };
 		10B051D97689441BA148CFAB /* expat_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat_config.h; path = ../XMPCore/resource/mac/expat_config.h; sourceTree = SOURCE_ROOT; };
 		10DDFE6528DD4E84A8E45E40 /* INFOMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = INFOMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/INFOMetadata.cpp; sourceTree = SOURCE_ROOT; };
-		10EDD412D34443E3A431195A /* XMPAtoms.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMPAtoms.h; path = ../XMPFiles/source/PluginHandler/XMPAtoms.h; sourceTree = SOURCE_ROOT; };
 		1161382D7317459DAD873AEE /* Reconcile_Impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Reconcile_Impl.hpp; path = ../XMPFiles/source/FormatSupport/Reconcile_Impl.hpp; sourceTree = SOURCE_ROOT; };
 		118BBBFA277445C68F07CEC9 /* MPEG2_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MPEG2_Handler.cpp; path = ../XMPFiles/source/FileHandlers/MPEG2_Handler.cpp; sourceTree = SOURCE_ROOT; };
 		119CAAA66CB140DBAA3E4A01 /* AIFFMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AIFFMetadata.h; path = ../XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.h; sourceTree = SOURCE_ROOT; };
@@ -230,7 +222,6 @@
 		2D587F2E796D44C2884F5003 /* QuickTime_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QuickTime_Support.cpp; path = ../XMPFiles/source/FormatSupport/QuickTime_Support.cpp; sourceTree = SOURCE_ROOT; };
 		2E0F196B21B847E88C0C3293 /* XMPCore.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist; name = XMPCore.plist; path = ../XMPCore/resource/mac/XMPCore.plist; sourceTree = SOURCE_ROOT; };
 		307DD50E666F4C64A3EAD921 /* SonyHDV_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SonyHDV_Handler.cpp; path = ../XMPFiles/source/FileHandlers/SonyHDV_Handler.cpp; sourceTree = SOURCE_ROOT; };
-		32372A3C7F6B4147B8BFA0E8 /* OS_Utils_Mac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OS_Utils_Mac.cpp; path = ../XMPFiles/source/PluginHandler/OS_Utils_Mac.cpp; sourceTree = SOURCE_ROOT; };
 		3317256668A94FFCA9781795 /* PostScript_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PostScript_Support.hpp; path = ../XMPFiles/source/FormatSupport/PostScript_Support.hpp; sourceTree = SOURCE_ROOT; };
 		333B06079216471BB281971E /* InDesign_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = InDesign_Handler.hpp; path = ../XMPFiles/source/FileHandlers/InDesign_Handler.hpp; sourceTree = SOURCE_ROOT; };
 		341A993BCEF24343B980F90A /* XMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPMeta.hpp; path = ../XMPCore/source/XMPMeta.hpp; sourceTree = SOURCE_ROOT; };
@@ -242,7 +233,6 @@
 		3D2572FA6166406A98DBBC0B /* WXMPUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPUtils.cpp; path = ../XMPCore/source/WXMPUtils.cpp; sourceTree = SOURCE_ROOT; };
 		3F55201FB92E47BEA81C7E89 /* inftrees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inftrees.h; path = "../third-party/zlib/inftrees.h"; sourceTree = SOURCE_ROOT; };
 		407E703230D34437A58868EB /* AVCHD_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AVCHD_Handler.hpp; path = ../XMPFiles/source/FileHandlers/AVCHD_Handler.hpp; sourceTree = SOURCE_ROOT; };
-		41E27C8839624A2FBCBA29AC /* Module.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Module.cpp; path = ../XMPFiles/source/PluginHandler/Module.cpp; sourceTree = SOURCE_ROOT; };
 		42348A0F134843EF881B13F7 /* XMP.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMP.hpp; path = ../public/include/XMP.hpp; sourceTree = SOURCE_ROOT; };
 		44C3DBB4F071438386CAFB7C /* WAVEBehavior.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WAVEBehavior.h; path = ../XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.h; sourceTree = SOURCE_ROOT; };
 		46D6650CF0DB45FF85DD2388 /* zutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = zutil.c; path = "../third-party/zlib/zutil.c"; sourceTree = SOURCE_ROOT; };
@@ -255,7 +245,6 @@
 		502CBA2C57514F518942F170 /* inflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inflate.c; path = "../third-party/zlib/inflate.c"; sourceTree = SOURCE_ROOT; };
 		50882C226BF04B1CA55C29B9 /* Chunk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chunk.cpp; path = ../XMPFiles/source/FormatSupport/IFF/Chunk.cpp; sourceTree = SOURCE_ROOT; };
 		52E294AF254544C8B200F5CA /* QuickTime_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = QuickTime_Support.hpp; path = ../XMPFiles/source/FormatSupport/QuickTime_Support.hpp; sourceTree = SOURCE_ROOT; };
-		5306B8E2C4FB47F6AE0A362B /* ModuleUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ModuleUtils.h; path = ../XMPFiles/source/PluginHandler/ModuleUtils.h; sourceTree = SOURCE_ROOT; };
 		538470DC038645B8AF1BB1B1 /* XMPUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPUtils.cpp; path = ../XMPCore/source/XMPUtils.cpp; sourceTree = SOURCE_ROOT; };
 		53BF4F4A86E94126AA0E1A42 /* Trivial_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Trivial_Handler.hpp; path = ../XMPFiles/source/FileHandlers/Trivial_Handler.hpp; sourceTree = SOURCE_ROOT; };
 		55C4D5FE92DB4B478522FF0C /* WAVE_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WAVE_Handler.hpp; path = ../XMPFiles/source/FileHandlers/WAVE_Handler.hpp; sourceTree = SOURCE_ROOT; };
@@ -282,7 +271,6 @@
 		6E0E0B8942EE4919A7D69F12 /* XMPMeta-Parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPMeta-Parse.cpp"; path = "../XMPCore/source/XMPMeta-Parse.cpp"; sourceTree = SOURCE_ROOT; };
 		71F36AFDA583497B8FD3273D /* IChunkContainer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IChunkContainer.h; path = ../XMPFiles/source/FormatSupport/IFF/IChunkContainer.h; sourceTree = SOURCE_ROOT; };
 		723BD98A824B48BA99B77CAD /* IOUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IOUtils.cpp; path = ../source/IOUtils.cpp; sourceTree = SOURCE_ROOT; };
-		7272F3EC1A874918A1BE43A0 /* FileHandlerInstance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FileHandlerInstance.h; path = ../XMPFiles/source/PluginHandler/FileHandlerInstance.h; sourceTree = SOURCE_ROOT; };
 		72A93A6A95084D7D9322AFFE /* AIFFBehavior.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AIFFBehavior.h; path = ../XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.h; sourceTree = SOURCE_ROOT; };
 		72F8BC4E82E640BA97C5EA1A /* XMP_BuildInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = XMP_BuildInfo.h; sourceTree = SOURCE_ROOT; };
 		752EBCB06AD347EDA16D1BF2 /* WXMP_Common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMP_Common.hpp; path = "../public/include/client-glue/WXMP_Common.hpp"; sourceTree = SOURCE_ROOT; };
@@ -336,7 +324,6 @@
 		AB1F727611F745BFBB484929 /* TIFF_FileWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_FileWriter.cpp; path = ../XMPFiles/source/FormatSupport/TIFF_FileWriter.cpp; sourceTree = SOURCE_ROOT; };
 		AC060CE7CF104F408302FF0C /* zconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zconf.h; path = "../third-party/zlib/zconf.h"; sourceTree = SOURCE_ROOT; };
 		AEA3568D891B4040B117669F /* crc32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crc32.c; path = "../third-party/zlib/crc32.c"; sourceTree = SOURCE_ROOT; };
-		AEA70B4C60094B52BEE002A4 /* Module.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Module.h; path = ../XMPFiles/source/PluginHandler/Module.h; sourceTree = SOURCE_ROOT; };
 		AEE8245B7CA942EAAD3BF2CE /* XMP_LibUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMP_LibUtils.cpp; path = ../source/XMP_LibUtils.cpp; sourceTree = SOURCE_ROOT; };
 		B2CC1C804C264079BF2A0328 /* ASF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ASF_Support.cpp; path = ../XMPFiles/source/FormatSupport/ASF_Support.cpp; sourceTree = SOURCE_ROOT; };
 		B35E9A2863CC48B8863176C1 /* ExpatAdapter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ExpatAdapter.cpp; path = ../XMPCore/source/ExpatAdapter.cpp; sourceTree = SOURCE_ROOT; };
@@ -349,7 +336,6 @@
 		B99FE07B59964379969B11EB /* PSD_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PSD_Handler.hpp; path = ../XMPFiles/source/FileHandlers/PSD_Handler.hpp; sourceTree = SOURCE_ROOT; };
 		B9A12182EE254F6891BF5821 /* TXMPFiles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPFiles.hpp; path = ../public/include/TXMPFiles.hpp; sourceTree = SOURCE_ROOT; };
 		B9AE7276ADD74707AFB1CF9D /* XMP_Version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Version.h; path = ../public/include/XMP_Version.h; sourceTree = SOURCE_ROOT; };
-		B9C50EB2F869499794A4C902 /* FileHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FileHandler.h; path = ../XMPFiles/source/PluginHandler/FileHandler.h; sourceTree = SOURCE_ROOT; };
 		BA8FCD4EA8EA4463BEB905CD /* inffast.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inffast.c; path = "../third-party/zlib/inffast.c"; sourceTree = SOURCE_ROOT; };
 		BB97709CEA674D32AC2677AB /* RIFF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RIFF.cpp; path = ../XMPFiles/source/FormatSupport/RIFF.cpp; sourceTree = SOURCE_ROOT; };
 		BE09BB1B3C704D7DAC6D2829 /* MP3_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MP3_Handler.hpp; path = ../XMPFiles/source/FileHandlers/MP3_Handler.hpp; sourceTree = SOURCE_ROOT; };
@@ -361,9 +347,7 @@
 		C21572C2C89B48D8A0C51DA4 /* TIFF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_Handler.cpp; path = ../XMPFiles/source/FileHandlers/TIFF_Handler.cpp; sourceTree = SOURCE_ROOT; };
 		C2228A26C6974612AB62B882 /* ReconcileLegacy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ReconcileLegacy.hpp; path = ../XMPFiles/source/FormatSupport/ReconcileLegacy.hpp; sourceTree = SOURCE_ROOT; };
 		C31F787FBC504BF9BB56F863 /* zutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zutil.h; path = "../third-party/zlib/zutil.h"; sourceTree = SOURCE_ROOT; };
-		C51851543172485486980EE6 /* PluginManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PluginManager.h; path = ../XMPFiles/source/PluginHandler/PluginManager.h; sourceTree = SOURCE_ROOT; };
 		C5FF6C33EF624F4DAEAD7B2C /* XMP_ProgressTracker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMP_ProgressTracker.cpp; path = ../source/XMP_ProgressTracker.cpp; sourceTree = SOURCE_ROOT; };
-		C8FCBA817436494F8CA3550A /* FileHandlerInstance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileHandlerInstance.cpp; path = ../XMPFiles/source/PluginHandler/FileHandlerInstance.cpp; sourceTree = SOURCE_ROOT; };
 		CA6C9886213B4BBDB75A8110 /* PackageFormat_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PackageFormat_Support.hpp; path = ../XMPFiles/source/FormatSupport/PackageFormat_Support.hpp; sourceTree = SOURCE_ROOT; };
 		CB70D9D3DE56433D9CB38867 /* MP3_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MP3_Handler.cpp; path = ../XMPFiles/source/FileHandlers/MP3_Handler.cpp; sourceTree = SOURCE_ROOT; };
 		CBD1D1446AD54520A61F7E55 /* XMPScanner.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPScanner.hpp; path = ../XMPFiles/source/FormatSupport/XMPScanner.hpp; sourceTree = SOURCE_ROOT; };
@@ -380,7 +364,6 @@
 		D49ED673031040D9B0178CD9 /* WXMPIterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPIterator.cpp; path = ../XMPCore/source/WXMPIterator.cpp; sourceTree = SOURCE_ROOT; };
 		D5BBCF50D03E41D5A1682F8E /* ParseRDF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ParseRDF.cpp; path = ../XMPCore/source/ParseRDF.cpp; sourceTree = SOURCE_ROOT; };
 		D65359944CB242CD90152590 /* FLV_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FLV_Handler.hpp; path = ../XMPFiles/source/FileHandlers/FLV_Handler.hpp; sourceTree = SOURCE_ROOT; };
-		D782C73441254C77900EB046 /* XMPAtoms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPAtoms.cpp; path = ../XMPFiles/source/PluginHandler/XMPAtoms.cpp; sourceTree = SOURCE_ROOT; };
 		D7A6CB2A22764EB2AF1C1BB8 /* inffast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffast.h; path = "../third-party/zlib/inffast.h"; sourceTree = SOURCE_ROOT; };
 		D8D22AFD17CB401BB918038D /* Scanner_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Scanner_Handler.cpp; path = ../XMPFiles/source/FileHandlers/Scanner_Handler.cpp; sourceTree = SOURCE_ROOT; };
 		D9BC609496EE497C8D4D477B /* XMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPIterator.hpp; path = ../XMPCore/source/XMPIterator.hpp; sourceTree = SOURCE_ROOT; };
@@ -395,7 +378,6 @@
 		E07D0C6EB50A4AAD95AB2264 /* TXMPFiles.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPFiles.incl_cpp; path = "../public/include/client-glue/TXMPFiles.incl_cpp"; sourceTree = SOURCE_ROOT; };
 		E2983DADAC02414285DA6E47 /* infback.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = infback.c; path = "../third-party/zlib/infback.c"; sourceTree = SOURCE_ROOT; };
 		E3DBFA68738841D39D315680 /* XMP_IO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMP_IO.hpp; path = ../public/include/XMP_IO.hpp; sourceTree = SOURCE_ROOT; };
-		E3ECAE64FB2B4337911A04C2 /* PluginManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PluginManager.cpp; path = ../XMPFiles/source/PluginHandler/PluginManager.cpp; sourceTree = SOURCE_ROOT; };
 		E4803C45EF554E2C8B645D66 /* SWF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SWF_Support.hpp; path = ../XMPFiles/source/FormatSupport/SWF_Support.hpp; sourceTree = SOURCE_ROOT; };
 		E6358282481F45E983633674 /* CartMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CartMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/CartMetadata.cpp; sourceTree = SOURCE_ROOT; };
 		E638F2A2EA274426A8CC0143 /* TIFF_MemoryReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_MemoryReader.cpp; path = ../XMPFiles/source/FormatSupport/TIFF_MemoryReader.cpp; sourceTree = SOURCE_ROOT; };
@@ -444,19 +426,6 @@
 				C31F787FBC504BF9BB56F863 /* zutil.h */,
 			);
 			name = zlib;
-			sourceTree = "<group>";
-		};
-		10357B1B11154125922F70A1 /* PluginHandler */ = {
-			isa = PBXGroup;
-			children = (
-				C8FCBA817436494F8CA3550A /* FileHandlerInstance.cpp */,
-				0B591276680C4FCE817DA45D /* HostAPIImpl.cpp */,
-				41E27C8839624A2FBCBA29AC /* Module.cpp */,
-				32372A3C7F6B4147B8BFA0E8 /* OS_Utils_Mac.cpp */,
-				E3ECAE64FB2B4337911A04C2 /* PluginManager.cpp */,
-				D782C73441254C77900EB046 /* XMPAtoms.cpp */,
-			);
-			name = PluginHandler;
 			sourceTree = "<group>";
 		};
 		146A85E4195142FD8F49802B /* XMPCoreStatic */ = {
@@ -596,19 +565,6 @@
 			name = "Client Glue";
 			sourceTree = "<group>";
 		};
-		485C170F02554ED291BAC23B /* PluginHandler */ = {
-			isa = PBXGroup;
-			children = (
-				B9C50EB2F869499794A4C902 /* FileHandler.h */,
-				7272F3EC1A874918A1BE43A0 /* FileHandlerInstance.h */,
-				AEA70B4C60094B52BEE002A4 /* Module.h */,
-				5306B8E2C4FB47F6AE0A362B /* ModuleUtils.h */,
-				C51851543172485486980EE6 /* PluginManager.h */,
-				10EDD412D34443E3A431195A /* XMPAtoms.h */,
-			);
-			name = PluginHandler;
-			sourceTree = "<group>";
-		};
 		4BAF46C26FE84154847B1073 /* Core Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -683,7 +639,6 @@
 				9A9294D78BF84E5F89E5CF82 /* Common Code */,
 				FD8BF59D85A84984A01C3E0B /* File Handlers */,
 				A394A4BE7B5B4D6C90C500B2 /* Format Support */,
-				485C170F02554ED291BAC23B /* PluginHandler */,
 			);
 			name = "Internal Headers";
 			sourceTree = "<group>";
@@ -952,7 +907,6 @@
 				1D2B7A10FEF84C61A56E97DA /* Common Code */,
 				A9D540D5CC4F4AE7BCAEC281 /* File Handlers */,
 				1D9431BDE2674B1D9E73A57D /* Format Support */,
-				10357B1B11154125922F70A1 /* PluginHandler */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -1065,6 +1019,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 725E9D2DF4FC4892A837FD1D /* Build configuration list for PBXProject "XMPToolkitSDK" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1094,18 +1049,18 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel -f /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C /Users/yu/git/xmp-sdk/build/xcode/static/intel -f /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		E921642FFFD84EA792D5852E /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel -f /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C /Users/yu/git/xmp-sdk/build/xcode/static/intel -f /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1181,12 +1136,6 @@
 				9094DF4A4DD742BB92EEDEF0 /* IMetadata.cpp in Sources */,
 				4A50C1E2B4EA4183AA48CD09 /* IReconcile.cpp in Sources */,
 				5455C184EBDE44D39BF71E15 /* MetadataSet.cpp in Sources */,
-				C9BD1A4EF131489AAF06B70C /* FileHandlerInstance.cpp in Sources */,
-				179E623ACF644F0A833BF0B1 /* HostAPIImpl.cpp in Sources */,
-				DEBCB578ABC8424382291DAC /* Module.cpp in Sources */,
-				F862AAB701E346A2B9EB90EE /* OS_Utils_Mac.cpp in Sources */,
-				1F7378479BDD45DF95638A90 /* PluginManager.cpp in Sources */,
-				55D06DA46A1F4E97B663FF84 /* XMPAtoms.cpp in Sources */,
 				FAAD44174981492CBEF0790F /* WXMPFiles.cpp in Sources */,
 				04DBC2C723BD40B285A7792F /* XMPFiles.cpp in Sources */,
 				9AA2FF023E4342338A7BF7A6 /* XMPFiles_Impl.cpp in Sources */,
@@ -1265,10 +1214,6 @@
 		13B83D53243646E686E817FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -1302,10 +1247,6 @@
 		13CF6F544F004D878AB57458 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -1339,7 +1280,6 @@
 		456352F3B6F54DA89E927A30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -1373,20 +1313,34 @@
 		47130C4CBB964524AD3CFAB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/../OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
-				SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel/build";
+				SYMROOT = "$(PROJECT_DIR)/../build/xcode/static/intel/build";
 			};
 			name = Release;
 		};
 		4B53881368A4434BB741BFBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/public/libraries/macintosh/intel/Release";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../public/libraries/macintosh/intel/Release";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -1404,10 +1358,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../..",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac",
+					"$(PROJECT_DIR)/../XMPCore/build/../..",
+					"$(PROJECT_DIR)/../XMPCore/build/../../public/include",
+					"$(PROJECT_DIR)/../XMPCore/build/../../third-party/expat/public/lib",
+					"$(PROJECT_DIR)/../XMPCore/build/../resource/mac",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1444,7 +1398,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = XMPCoreStatic;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "$(PROJECT_DIR)/XMPCore/build/xcode/static/intel";
+				SYMROOT = "$(PROJECT_DIR)/../XMPCore/build/xcode/static/intel";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "";
 			};
@@ -1453,9 +1407,8 @@
 		5FF89CF6A7A643149827834A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/public/libraries/macintosh/intel/Debug";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../public/libraries/macintosh/intel/Debug";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -1473,11 +1426,11 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../..",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../../public/include",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../../third-party/expat/zlib",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../../XMPFilesPlugins/api/source",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../resource/mac",
+					"$(PROJECT_DIR)/../XMPFiles/build/../..",
+					"$(PROJECT_DIR)/../XMPFiles/build/../../public/include",
+					"$(PROJECT_DIR)/../XMPFiles/build/../../third-party/expat/zlib",
+					"$(PROJECT_DIR)/../XMPFiles/build/../../XMPFilesPlugins/api/source",
+					"$(PROJECT_DIR)/../XMPFiles/build/../resource/mac",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1514,7 +1467,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = XMPFilesStatic;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "$(PROJECT_DIR)/XMPFiles/build/xcode/static/intel";
+				SYMROOT = "$(PROJECT_DIR)/../XMPFiles/build/xcode/static/intel";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "";
 			};
@@ -1523,9 +1476,8 @@
 		8507C09142754603A90C47E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/public/libraries/macintosh/intel/Debug";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../public/libraries/macintosh/intel/Debug";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -1543,10 +1495,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../..",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../public/include",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../../third-party/expat/public/lib",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/../resource/mac",
+					"$(PROJECT_DIR)/../XMPCore/build/../..",
+					"$(PROJECT_DIR)/../XMPCore/build/../../public/include",
+					"$(PROJECT_DIR)/../XMPCore/build/../../third-party/expat/public/lib",
+					"$(PROJECT_DIR)/../XMPCore/build/../resource/mac",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1583,7 +1535,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = XMPCoreStatic;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "$(PROJECT_DIR)/XMPCore/build/xcode/static/intel";
+				SYMROOT = "$(PROJECT_DIR)/../XMPCore/build/xcode/static/intel";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "";
 			};
@@ -1592,18 +1544,34 @@
 		C19914C375A44E04926C2D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/../OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SYMROOT = "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel/build";
+				SYMROOT = "$(PROJECT_DIR)/../build/xcode/static/intel/build";
 			};
 			name = Debug;
 		};
 		D455CFFE87964B06AF67F2A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -1637,9 +1605,8 @@
 		F5ECCF26B212453E98140351 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/public/libraries/macintosh/intel/Release";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../public/libraries/macintosh/intel/Release";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -1657,11 +1624,11 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../..",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../../public/include",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../../third-party/expat/zlib",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../../XMPFilesPlugins/api/source",
-					"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/../resource/mac",
+					"$(PROJECT_DIR)/../XMPFiles/build/../..",
+					"$(PROJECT_DIR)/../XMPFiles/build/../../public/include",
+					"$(PROJECT_DIR)/../XMPFiles/build/../../third-party/expat/zlib",
+					"$(PROJECT_DIR)/../XMPFiles/build/../../XMPFilesPlugins/api/source",
+					"$(PROJECT_DIR)/../XMPFiles/build/../resource/mac",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1698,7 +1665,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = XMPFilesStatic;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "$(PROJECT_DIR)/XMPFiles/build/xcode/static/intel";
+				SYMROOT = "$(PROJECT_DIR)/../XMPFiles/build/xcode/static/intel";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "";
 			};

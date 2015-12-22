@@ -1,23 +1,23 @@
 dependencies: \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../samples/source/common/globals.h \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/XMP.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/XMP_Environment.h \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/XMP_Version.h \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/XMP_Const.h \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/TXMPMeta.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/TXMPIterator.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/client-glue/WXMPIterator.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/client-glue/WXMP_Common.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/TXMPUtils.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/XMP.incl_cpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/client-glue/TXMPMeta.incl_cpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/client-glue/WXMPMeta.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/client-glue/TXMPIterator.incl_cpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/client-glue/TXMPUtils.incl_cpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/client-glue/WXMPUtils.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../samples/source/common/Log.h \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../samples/source/common/LargeFileAccess.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../source/EndianUtils.hpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../samples/source/common/DumpFile.h \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../samples/source/common/TagTree.h
+  /Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../samples/source/common/globals.h \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/XMP.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/XMP_Environment.h \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/XMP_Version.h \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/XMP_Const.h \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/TXMPMeta.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/TXMPIterator.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/client-glue/WXMPIterator.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/client-glue/WXMP_Common.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/TXMPUtils.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/XMP.incl_cpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/client-glue/TXMPMeta.incl_cpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/client-glue/WXMPMeta.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/client-glue/TXMPIterator.incl_cpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/client-glue/TXMPUtils.incl_cpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/client-glue/WXMPUtils.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../samples/source/common/Log.h \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../samples/source/common/LargeFileAccess.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../source/EndianUtils.hpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../samples/source/common/DumpFile.h \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../samples/source/common/TagTree.h

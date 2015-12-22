@@ -2,8 +2,8 @@ TReadingXMP
 v6
 r1
 cCheck dependencies
-cCompileC ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/ReadingXMP normal i386
+cCompileC ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o /Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/ReadingXMP normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
 c00000000531E748700000000000000AA
@@ -190,183 +190,187 @@ c00000000531E74730000000000001770
 t1394504819
 s6000
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPFiles.hpp
+N/Users/yu/git/xmp-sdk/public/include/TXMPFiles.hpp
 c0000000051C8FFF6000000000000B529
 t1372127222
 s46377
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPIterator.hpp
+N/Users/yu/git/xmp-sdk/public/include/TXMPIterator.hpp
 c0000000051C8FFF6000000000000308D
 t1372127222
 s12429
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPMeta.hpp
+N/Users/yu/git/xmp-sdk/public/include/TXMPMeta.hpp
 c0000000051C8FFF40000000000015E08
 t1372127220
 s89608
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPUtils.hpp
+N/Users/yu/git/xmp-sdk/public/include/TXMPUtils.hpp
 c0000000051C8FFF6000000000000C2CA
 t1372127222
 s49866
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.hpp
+N/Users/yu/git/xmp-sdk/public/include/XMP.hpp
 c0000000051C8FFF40000000000001057
 t1372127220
 s4183
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/XMP.incl_cpp
 c0000000051C8FFF40000000000000996
 t1372127220
 s2454
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+N/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
 c0000000051C8FFF4000000000000E704
 t1372127220
 s59140
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+N/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
 c0000000051C8FFF400000000000012A4
 t1372127220
 s4772
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_IO.hpp
+N/Users/yu/git/xmp-sdk/public/include/XMP_IO.hpp
 c0000000051C8FFF4000000000000208B
 t1372127220
 s8331
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
+N/Users/yu/git/xmp-sdk/public/include/XMP_Version.h
 c0000000051C8FFF400000000000008DB
 t1372127220
 s2267
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPFiles.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPFiles.incl_cpp
 c0000000051C8FFF60000000000004361
 t1372127222
 s17249
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPIterator.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPIterator.incl_cpp
 c0000000051C8FFF600000000000022A9
 t1372127222
 s8873
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPMeta.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPMeta.incl_cpp
 c0000000051C8FFF600000000000079ED
 t1372127222
 s31213
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPUtils.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPUtils.incl_cpp
 c0000000051C8FFF60000000000003FD4
 t1372127222
 s16340
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPFiles.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPFiles.hpp
 c0000000051C8FFF60000000000002F50
 t1372127222
 s12112
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPIterator.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPIterator.hpp
 c0000000051C8FFF60000000000000A79
 t1372127222
 s2681
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPMeta.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPMeta.hpp
 c0000000051C8FFF60000000000006B47
 t1372127222
 s27463
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPUtils.hpp
 c0000000051C8FFF60000000000003693
 t1372127222
 s13971
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMP_Common.hpp
 c0000000051C8FFF600000000000012DB
 t1372127222
 s4827
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
+N/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
 c00000000548298E9000000000034FD98
 t1417844969
 s3472792
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
+N/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
 c00000000548298F80000000000CB8E90
 t1417844984
 s13340304
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.LinkFileList
+N/Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.LinkFileList
 c000000005482994500000000000000A1
 t1417845061
 s161
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o
+N/Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o
 t1417845061
 s255276
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp
+N/Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp
 c0000000051C900000000000000001851
 t1372127232
 s6225
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/ReadingXMP
+N/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/ReadingXMP
 t2
 s0
 
-CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp
+CBuild AST from /Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp
 r0
 
 CCheck dependencies
 r0
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9bad8812d232ba41^6f0e8b12d232ba41^---0#1#1#--18"Check dependencies36"51BC9E12-0ADA-4FAD-9DD9-6C82A6A42209-
 
-CCompileC ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+CCompileC ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o /Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s439537861.068283
 e439537861.992892
 r1
 xCompileC
 xReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp
+x/Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPMeta.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPIterator.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPIterator.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPFiles.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_IO.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPMeta.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPMeta.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPIterator.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPUtils.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPFiles.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPFiles.hpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp239"CompileC ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7fdd11c5d032ba41^3333ffc5d032ba41^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp0000000000000000^2998"CompileC ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/ReadingXMP.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o36"B53FA8A4-61D4-4121-A407-1F971DECF93B-
+d/Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp
+d/Users/yu/git/xmp-sdk/public/include/XMP.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/XMP.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Version.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
+d/Users/yu/git/xmp-sdk/public/include/TXMPMeta.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPIterator.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPIterator.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMP_Common.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPUtils.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPFiles.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_IO.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPMeta.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPMeta.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPIterator.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPUtils.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPUtils.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPFiles.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPFiles.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp239"CompileC ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o /Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7fdd11c5d032ba41^3333ffc5d032ba41^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp0000000000000000^2998"CompileC ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o /Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../.. -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/DerivedSources/i386 -I/Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.d --serialize-diagnostics /Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.dia -c /Users/yu/git/xmp-sdk/samples/source/ReadingXMP.cpp -o /Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o
+36"B53FA8A4-61D4-4121-A407-1F971DECF93B-
 b158CF6A3-77B2-4A17-94EF-C614A5A70B84
 
-CLd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/ReadingXMP normal i386
+CLd /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/ReadingXMP normal i386
 s439538194.545053
 e439538194.765735
 r1
 xLd
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/ReadingXMP
+x/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/ReadingXMP
 xnormal
 xi386
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.LinkFileList
+d/Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
+d/Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.o
+d/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
+d/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
@@ -410,6 +414,10 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/ReadingXMP112"Ld /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/ReadingXMP normal i3860b998b12d232ba41^55a0c612d232ba41^---0#0#1#--1507"Ld /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/ReadingXMP normal i386    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export MACOSX_DEPLOYMENT_TARGET=10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -filelist /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a -framework CoreServices -Xlinker -dependency_info -Xlinker /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP_dependency_info.dat -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/ReadingXMP36"045A047B-59A5-402F-9633-A49F5695F31B-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/ReadingXMP112"Ld /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/ReadingXMP normal i3860b998b12d232ba41^55a0c612d232ba41^---0#0#1#--1507"Ld /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/ReadingXMP normal i386
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export MACOSX_DEPLOYMENT_TARGET=10.6
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -filelist /Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a -framework CoreServices -Xlinker -dependency_info -Xlinker /Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/XMP_Samples.build/Debug/ReadingXMP.build/Objects-normal/i386/ReadingXMP_dependency_info.dat -o /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/ReadingXMP
+36"045A047B-59A5-402F-9633-A49F5695F31B-
 b4C2BF1D2-4FEA-4437-9359-730D7F9A58A3
 

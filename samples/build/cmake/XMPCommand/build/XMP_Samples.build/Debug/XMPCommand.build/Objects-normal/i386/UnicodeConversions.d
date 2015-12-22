@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/UnicodeConversions.cpp \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/XMP_Const.h \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include/XMP_Environment.h \
-  /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../source/UnicodeConversions.hpp
+  /Users/yu/git/xmp-sdk/source/UnicodeConversions.cpp \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/XMP_Const.h \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include/XMP_Environment.h \
+  /Users/yu/git/xmp-sdk/samples/build/cmake/../../../source/UnicodeConversions.hpp

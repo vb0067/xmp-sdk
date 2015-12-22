@@ -2,8 +2,8 @@ TDumpScannedXMP
 v6
 r1
 cCheck dependencies
-cCompileC DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpScannedXMP normal i386
+cCompileC DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o /Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpScannedXMP normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
 c00000000531E748700000000000000AA
@@ -20,75 +20,79 @@ c00000000531E747000000000000001DE
 t1394504816
 s478
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.LinkFileList
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.LinkFileList
 c000000005482994400000000000000AD
 t1417845060
 s173
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o
 t1417845060
 s189836
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp
+N/Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp
 c0000000051C900000000000000001226
 t1372127232
 s4646
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpScannedXMP
+N/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpScannedXMP
 t2
 s0
 
-CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp
+CBuild AST from /Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp
 r0
 
 CCheck dependencies
 r0
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies176764c4d032ba41^f5f366c4d032ba41^---0#1#1#--18"Check dependencies36"4E008A97-0003-461B-97B8-CD400D9CF520-
 
-CCompileC DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+CCompileC DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o /Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s439537860.401751
 e439537860.891955
 r1
 xCompileC
 xDumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp
+x/Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPMeta.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPIterator.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPIterator.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPMeta.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPMeta.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPIterator.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPUtils.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.hpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp255"CompileC DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilera5f666c4d032ba41^e257e4c4d032ba41^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp0000000000000000^3070"CompileC DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/DumpScannedXMP.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o36"190C570C-0E30-40BC-B4A5-0955A234C698-
+d/Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp
+d/Users/yu/git/xmp-sdk/public/include/XMP.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Version.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
+d/Users/yu/git/xmp-sdk/public/include/TXMPMeta.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPIterator.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPIterator.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMP_Common.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPUtils.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPMeta.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPMeta.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPIterator.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPUtils.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPUtils.hpp
+d/Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp255"CompileC DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o /Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilera5f666c4d032ba41^e257e4c4d032ba41^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp0000000000000000^3070"CompileC DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o /Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../.. -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/DerivedSources/i386 -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.d --serialize-diagnostics /Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.dia -c /Users/yu/git/xmp-sdk/samples/source/DumpScannedXMP.cpp -o /Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o
+36"190C570C-0E30-40BC-B4A5-0955A234C698-
 b38294FC1-1ECA-4F9A-A944-C0BA82D8FE80
 
-CLd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpScannedXMP normal i386
+CLd /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpScannedXMP normal i386
 s439537860.892632
 e439537861.060385
 r1
 xLd
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpScannedXMP
+x/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpScannedXMP
 xnormal
 xi386
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.LinkFileList
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.o
+d/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
+d/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
@@ -122,6 +126,10 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpScannedXMP116"Ld /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpScannedXMP normal i3868597e4c4d032ba41^0c760fc5d032ba41^---0#0#1#--1515"Ld /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpScannedXMP normal i386    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export MACOSX_DEPLOYMENT_TARGET=10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -filelist /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a -Xlinker -dependency_info -Xlinker /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP_dependency_info.dat -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpScannedXMP36"7B18FBC0-4573-43BF-81E7-FA5EFA8A3036-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpScannedXMP116"Ld /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpScannedXMP normal i3868597e4c4d032ba41^0c760fc5d032ba41^---0#0#1#--1515"Ld /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpScannedXMP normal i386
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export MACOSX_DEPLOYMENT_TARGET=10.6
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -filelist /Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a -Xlinker -dependency_info -Xlinker /Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/XMP_Samples.build/Debug/DumpScannedXMP.build/Objects-normal/i386/DumpScannedXMP_dependency_info.dat -o /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpScannedXMP
+36"7B18FBC0-4573-43BF-81E7-FA5EFA8A3036-
 b38294FC1-1ECA-4F9A-A944-C0BA82D8FE80
 

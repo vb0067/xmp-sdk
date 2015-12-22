@@ -1,4 +1,4 @@
-# Install script for directory: /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build
+# Install script for directory: /Users/yu/git/xmp-sdk/build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/cmake_install.cmake")
-  include("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPFiles/build/xcode/static/intel/cmake_install.cmake")
+  include("/Users/yu/git/xmp-sdk/XMPCore/build/xcode/static/intel/cmake_install.cmake")
+  include("/Users/yu/git/xmp-sdk/XMPFiles/build/xcode/static/intel/cmake_install.cmake")
 
 endif()
 
@@ -40,7 +40,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/Users/yu/git/xmp-sdk/build/xcode/static/intel/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/build/xcode/static/intel/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/Users/yu/git/xmp-sdk/build/xcode/static/intel/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

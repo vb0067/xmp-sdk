@@ -2,13 +2,13 @@ TDumpFile
 v6
 r1
 cCheck dependencies
-cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpFile normal i386
+cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o /Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o /Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o /Users/yu/git/xmp-sdk/samples/source/common/Log.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o /Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o /Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o /Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpFile normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
 c00000000531E748700000000000000AA
@@ -195,413 +195,477 @@ c00000000531E74730000000000001770
 t1394504819
 s6000
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPIterator.hpp
+N/Users/yu/git/xmp-sdk/public/include/TXMPIterator.hpp
 c0000000051C8FFF6000000000000308D
 t1372127222
 s12429
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPMeta.hpp
+N/Users/yu/git/xmp-sdk/public/include/TXMPMeta.hpp
 c0000000051C8FFF40000000000015E08
 t1372127220
 s89608
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPUtils.hpp
+N/Users/yu/git/xmp-sdk/public/include/TXMPUtils.hpp
 c0000000051C8FFF6000000000000C2CA
 t1372127222
 s49866
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.hpp
+N/Users/yu/git/xmp-sdk/public/include/XMP.hpp
 c0000000051C8FFF40000000000001057
 t1372127220
 s4183
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/XMP.incl_cpp
 c0000000051C8FFF40000000000000996
 t1372127220
 s2454
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
+N/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
 c0000000051C8FFF4000000000000E704
 t1372127220
 s59140
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
+N/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
 c0000000051C8FFF400000000000012A4
 t1372127220
 s4772
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
+N/Users/yu/git/xmp-sdk/public/include/XMP_Version.h
 c0000000051C8FFF400000000000008DB
 t1372127220
 s2267
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPIterator.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPIterator.incl_cpp
 c0000000051C8FFF600000000000022A9
 t1372127222
 s8873
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPMeta.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPMeta.incl_cpp
 c0000000051C8FFF600000000000079ED
 t1372127222
 s31213
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPUtils.incl_cpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPUtils.incl_cpp
 c0000000051C8FFF60000000000003FD4
 t1372127222
 s16340
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPIterator.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPIterator.hpp
 c0000000051C8FFF60000000000000A79
 t1372127222
 s2681
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPMeta.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPMeta.hpp
 c0000000051C8FFF60000000000006B47
 t1372127222
 s27463
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPUtils.hpp
 c0000000051C8FFF60000000000003693
 t1372127222
 s13971
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
+N/Users/yu/git/xmp-sdk/public/include/client-glue/WXMP_Common.hpp
 c0000000051C8FFF600000000000012DB
 t1372127222
 s4827
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
+N/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
 c00000000548298E9000000000034FD98
 t1417844969
 s3472792
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
+N/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
 c00000000548298F80000000000CB8E90
 t1417844984
 s13340304
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.LinkFileList
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.LinkFileList
 c000000005482994500000000000003A1
 t1417845061
 s929
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o
 t1417845062
 s535312
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o
 t1417845129
 s29660
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o
 t1417845129
 s61848
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o
 t1417845129
 s267220
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o
 t1417845129
 s177736
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o
+N/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o
 t1417845130
 s218572
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp
+N/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp
 c0000000051C90000000000000002ABDA
 t1372127232
 s175066
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.h
+N/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.h
 c0000000051C900000000000000000326
 t1372127232
 s806
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp
+N/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp
 c0000000051C900000000000000006E23
 t1372127232
 s28195
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.hpp
+N/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.hpp
 c0000000051C900000000000000002268
 t1372127232
 s8808
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp
+N/Users/yu/git/xmp-sdk/samples/source/common/Log.cpp
 c0000000051C900000000000000001D47
 t1372127232
 s7495
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.h
+N/Users/yu/git/xmp-sdk/samples/source/common/Log.h
 c0000000051C900000000000000000D04
 t1372127232
 s3332
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp
+N/Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp
 c0000000051C900000000000000005639
 t1372127232
 s22073
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.h
+N/Users/yu/git/xmp-sdk/samples/source/common/TagTree.h
 c0000000051C900000000000000002268
 t1372127232
 s8808
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp
+N/Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp
 c0000000051C90000000000000000C504
 t1372127232
 s50436
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.hpp
+N/Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.hpp
 c0000000051C900000000000000003129
 t1372127232
 s12585
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/globals.h
+N/Users/yu/git/xmp-sdk/samples/source/common/globals.h
 c0000000051C90000000000000000104C
 t1372127232
 s4172
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp
+N/Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp
 c0000000051C900020000000000001DBD
 t1372127234
 s7613
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpFile
+N/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpFile
 t2
 s0
 
-N/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/EndianUtils.hpp
+N/Users/yu/git/xmp-sdk/source/EndianUtils.hpp
 c0000000051C8FFFE0000000000003947
 t1372127230
 s14663
 
-CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp
+CBuild AST from /Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp
 r0
 
-CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp
+CBuild AST from /Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp
 r0
 
-CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp
+CBuild AST from /Users/yu/git/xmp-sdk/samples/source/common/Log.cpp
 r0
 
-CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp
+CBuild AST from /Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp
 r0
 
-CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp
+CBuild AST from /Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp
 r0
 
-CBuild AST from /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp
+CBuild AST from /Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp
 r0
 
 CCheck dependencies
 r0
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9ab6bf7bd132ba41^6282c67bd132ba41^---0#1#1#--18"Check dependencies36"252E6196-E6C8-4065-91B1-DEFF766153BE-
 
-CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o /Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s439537861.382039
 e439537862.621169
 r1
 xCompileC
 xDumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp
+x/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/globals.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/EndianUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPMeta.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPIterator.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPIterator.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.hpp
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp:54:6: warning: explicitly assigning a variable of type 'char' to itself [-Wself-assign]
+d/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp
+d/Users/yu/git/xmp-sdk/samples/source/common/globals.h
+d/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.h
+d/Users/yu/git/xmp-sdk/samples/source/common/TagTree.h
+d/Users/yu/git/xmp-sdk/source/EndianUtils.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
+d/Users/yu/git/xmp-sdk/samples/source/common/Log.h
+d/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_Version.h
+d/Users/yu/git/xmp-sdk/public/include/TXMPMeta.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPIterator.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPIterator.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMP_Common.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPUtils.hpp
+d/Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.hpp
+o/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp:54:6: warning: explicitly assigning a variable of type 'char' to itself [-Wself-assign]
 o                tmp=tmp;
 o                ~~~^~~~
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp:106:6: warning: explicitly assigning a variable of type 'char' to itself [-Wself-assign]
+o/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp:106:6: warning: explicitly assigning a variable of type 'char' to itself [-Wself-assign]
 o                tmp=tmp;
 o                ~~~^~~~
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp:1662:8: warning: explicitly assigning a variable of type 'XMP_Uns32' (aka 'unsigned int') to itself [-Wself-assign]
+o/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp:1662:8: warning: explicitly assigning a variable of type 'XMP_Uns32' (aka 'unsigned int') to itself [-Wself-assign]
 o        psdLen=psdLen;  // Avoid unused parameter warning.
 o        ~~~~~~^~~~~~~
 o3 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp238"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler07ed61c5d032ba41^47049fc6d032ba41^-749"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp:54:6: warning: explicitly assigning a variable of type 'char' to itself [-Wself-assign]                tmp=tmp;                ~~~^~~~/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp:106:6: warning: explicitly assigning a variable of type 'char' to itself [-Wself-assign]                tmp=tmp;                ~~~^~~~/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp:1662:8: warning: explicitly assigning a variable of type 'XMP_Uns32' (aka 'unsigned int') to itself [-Wself-assign]        psdLen=psdLen;  // Avoid unused parameter warning.        ~~~~~~^~~~~~~3 warnings generated.-0#0#1#-19%DVTDocumentLocation2@91"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp0000000000000000^2976"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o36"98189A09-4F63-4EB6-9237-2AA9D870B647-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp238"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o /Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler07ed61c5d032ba41^47049fc6d032ba41^-749"/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp:54:6: warning: explicitly assigning a variable of type 'char' to itself [-Wself-assign]
+                tmp=tmp;
+                ~~~^~~~
+/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp:106:6: warning: explicitly assigning a variable of type 'char' to itself [-Wself-assign]
+                tmp=tmp;
+                ~~~^~~~
+/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp:1662:8: warning: explicitly assigning a variable of type 'XMP_Uns32' (aka 'unsigned int') to itself [-Wself-assign]
+        psdLen=psdLen;  // Avoid unused parameter warning.
+        ~~~~~~^~~~~~~
+3 warnings generated.
+-0#0#1#-19%DVTDocumentLocation2@91"file:///Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp0000000000000000^2976"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o /Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../.. -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.d --serialize-diagnostics /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.dia -c /Users/yu/git/xmp-sdk/samples/source/common/DumpFile.cpp -o /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o
+36"98189A09-4F63-4EB6-9237-2AA9D870B647-
 b6611AA4D-37C4-4D22-9D03-D61AB88FB348
 
-CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o /Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s439537929.048118
 e439537929.569171
 r1
 xCompileC
 xDumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp
+x/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/EndianUtils.hpp
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:71:10: warning: cast to 'void *' from smaller integer type 'SInt16' (aka 'short') [-Wint-to-void-pointer-cast]
+d/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp
+d/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
+d/Users/yu/git/xmp-sdk/source/EndianUtils.hpp
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:71:10: warning: cast to 'void *' from smaller integer type 'SInt16' (aka 'short') [-Wint-to-void-pointer-cast]
 o                return (LFA_FileRef)refNum;
 o                       ^
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:136:10: warning: cast to 'void *' from smaller integer type 'SInt16' (aka 'short') [-Wint-to-void-pointer-cast]
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:136:10: warning: cast to 'void *' from smaller integer type 'SInt16' (aka 'short') [-Wint-to-void-pointer-cast]
 o                return (LFA_FileRef)refNum;
 o                       ^
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:185:8: warning: variable 'newPos' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:185:8: warning: variable 'newPos' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
 o                if ( err == noErr ) err = FSGetForkPosition ( refNum, &newPos );
 o                     ^~~~~~~~~~~~
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:193:10: note: uninitialized use occurs here
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:193:10: note: uninitialized use occurs here
 o                return newPos;
 o                       ^~~~~~
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:185:3: note: remove the 'if' if its condition is always true
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:185:3: note: remove the 'if' if its condition is always true
 o                if ( err == noErr ) err = FSGetForkPosition ( refNum, &newPos );
 o                ^~~~~~~~~~~~~~~~~~~~
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:175:19: note: initialize the variable 'newPos' to silence this warning
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:175:19: note: initialize the variable 'newPos' to silence this warning
 o                XMP_Int64 newPos;
 o                                ^
 o                                 = 0
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:169:4: warning: variable 'posMode' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:169:4: warning: variable 'posMode' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
 o                        default :
 o                        ^~~~~~~
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:177:37: note: uninitialized use occurs here
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:177:37: note: uninitialized use occurs here
 o                err = FSSetForkPosition ( refNum, posMode, offset );
 o                                                  ^~~~~~~
-o/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:158:17: note: initialize the variable 'posMode' to silence this warning
+o/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:158:17: note: initialize the variable 'posMode' to silence this warning
 o                UInt16 posMode;
 o                              ^
 o                               = 0
 o4 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp252"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler878b0c09d132ba41^9ece9109d132ba41^-2429"/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:71:10: warning: cast to 'void *' from smaller integer type 'SInt16' (aka 'short') [-Wint-to-void-pointer-cast]                return (LFA_FileRef)refNum;                       ^/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:136:10: warning: cast to 'void *' from smaller integer type 'SInt16' (aka 'short') [-Wint-to-void-pointer-cast]                return (LFA_FileRef)refNum;                       ^/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:185:8: warning: variable 'newPos' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]                if ( err == noErr ) err = FSGetForkPosition ( refNum, &newPos );                     ^~~~~~~~~~~~/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:193:10: note: uninitialized use occurs here                return newPos;                       ^~~~~~/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:185:3: note: remove the 'if' if its condition is always true                if ( err == noErr ) err = FSGetForkPosition ( refNum, &newPos );                ^~~~~~~~~~~~~~~~~~~~/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:175:19: note: initialize the variable 'newPos' to silence this warning                XMP_Int64 newPos;                                ^                                 = 0/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:169:4: warning: variable 'posMode' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]                        default :                        ^~~~~~~/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:177:37: note: uninitialized use occurs here                err = FSSetForkPosition ( refNum, posMode, offset );                                                  ^~~~~~~/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp:158:17: note: initialize the variable 'posMode' to silence this warning                UInt16 posMode;                              ^                               = 04 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@65"Cast to 'void *' from smaller integer type 'SInt16' (aka 'short')-439537929#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^70#9#70#9#2331#0#14"Semantic Issue--2@65"Cast to 'void *' from smaller integer type 'SInt16' (aka 'short')-439537929#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^135#9#135#9#4579#0#14"Semantic Issue--2@72"Variable 'newPos' is used uninitialized whenever 'if' condition is false-439537929#18446744073709551615#0#3(2@29"Uninitialized use occurs here-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^192#9#192#9#6226#0#14"Semantic Issue1(3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^192#9#192#15#6226#0#-2@47"Remove the 'if' if its condition is always true-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^184#2#184#2#5984#0#14"Semantic Issue1(3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^184#2#184#22#5984#20#-2@56"Initialize the variable 'newPos' to silence this warning-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^174#18#174#18#5677#0#14"Semantic Issue1(3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^174#18#174#18#5677#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^184#7#184#7#5989#0#14"Semantic Issue1(3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^184#7#184#19#5989#7#-2@73"Variable 'posMode' is used uninitialized whenever switch default is taken-439537929#18446744073709551615#0#2(2@29"Uninitialized use occurs here-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^176#36#176#36#5716#0#14"Semantic Issue1(3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^176#36#176#43#5716#0#-2@57"Initialize the variable 'posMode' to silence this warning-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^157#16#157#16#5352#0#14"Semantic Issue1(3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^157#16#157#16#5352#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^168#3#168#3#5546#0#14"Semantic Issue1(3@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^168#3#168#10#5546#0#-0#0#1#-19%DVTDocumentLocation4@98"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp0000000000000000^3018"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o36"B426D453-8E10-41F7-AB48-AC8ED799417D-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp252"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o /Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler878b0c09d132ba41^9ece9109d132ba41^-2429"/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:71:10: warning: cast to 'void *' from smaller integer type 'SInt16' (aka 'short') [-Wint-to-void-pointer-cast]
+                return (LFA_FileRef)refNum;
+                       ^
+/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:136:10: warning: cast to 'void *' from smaller integer type 'SInt16' (aka 'short') [-Wint-to-void-pointer-cast]
+                return (LFA_FileRef)refNum;
+                       ^
+/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:185:8: warning: variable 'newPos' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+                if ( err == noErr ) err = FSGetForkPosition ( refNum, &newPos );
+                     ^~~~~~~~~~~~
+/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:193:10: note: uninitialized use occurs here
+                return newPos;
+                       ^~~~~~
+/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:185:3: note: remove the 'if' if its condition is always true
+                if ( err == noErr ) err = FSGetForkPosition ( refNum, &newPos );
+                ^~~~~~~~~~~~~~~~~~~~
+/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:175:19: note: initialize the variable 'newPos' to silence this warning
+                XMP_Int64 newPos;
+                                ^
+                                 = 0
+/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:169:4: warning: variable 'posMode' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
+                        default :
+                        ^~~~~~~
+/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:177:37: note: uninitialized use occurs here
+                err = FSSetForkPosition ( refNum, posMode, offset );
+                                                  ^~~~~~~
+/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp:158:17: note: initialize the variable 'posMode' to silence this warning
+                UInt16 posMode;
+                              ^
+                               = 0
+4 warnings generated.
+4(36%IDEClangDiagnosticActivityLogMessage2@65"Cast to 'void *' from smaller integer type 'SInt16' (aka 'short')-439537929#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^70#9#70#9#2331#0#14"Semantic Issue--2@65"Cast to 'void *' from smaller integer type 'SInt16' (aka 'short')-439537929#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^135#9#135#9#4579#0#14"Semantic Issue--2@72"Variable 'newPos' is used uninitialized whenever 'if' condition is false-439537929#18446744073709551615#0#3(2@29"Uninitialized use occurs here-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^192#9#192#9#6226#0#14"Semantic Issue1(3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^192#9#192#15#6226#0#-2@47"Remove the 'if' if its condition is always true-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^184#2#184#2#5984#0#14"Semantic Issue1(3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^184#2#184#22#5984#20#-2@56"Initialize the variable 'newPos' to silence this warning-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^174#18#174#18#5677#0#14"Semantic Issue1(3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^174#18#174#18#5677#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^184#7#184#7#5989#0#14"Semantic Issue1(3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^184#7#184#19#5989#7#-2@73"Variable 'posMode' is used uninitialized whenever switch default is taken-439537929#18446744073709551615#0#2(2@29"Uninitialized use occurs here-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^176#36#176#36#5716#0#14"Semantic Issue1(3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^176#36#176#43#5716#0#-2@57"Initialize the variable 'posMode' to silence this warning-439537929#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^157#16#157#16#5352#0#14"Semantic Issue1(3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^157#16#157#16#5352#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^168#3#168#3#5546#0#14"Semantic Issue1(3@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^168#3#168#10#5546#0#-0#0#1#-19%DVTDocumentLocation4@98"file:///Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp0000000000000000^3018"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o /Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../.. -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.d --serialize-diagnostics /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.dia -c /Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.cpp -o /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o
+36"B426D453-8E10-41F7-AB48-AC8ED799417D-
 bACD325B9-EC93-4CBF-8114-3E6DC6CDE1D8
 
-CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o /Users/yu/git/xmp-sdk/samples/source/common/Log.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s439537929.048795
 e439537929.229212
 r1
 xCompileC
 xDumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp
+x/Users/yu/git/xmp-sdk/samples/source/common/Log.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/globals.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp228"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerf2990c09d132ba41^f4a63a09d132ba41^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp0000000000000000^2946"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o36"91269356-5303-48EB-87FE-843228E10780-
+d/Users/yu/git/xmp-sdk/samples/source/common/Log.cpp
+d/Users/yu/git/xmp-sdk/samples/source/common/globals.h
+d/Users/yu/git/xmp-sdk/samples/source/common/Log.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/yu/git/xmp-sdk/samples/source/common/Log.cpp228"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o /Users/yu/git/xmp-sdk/samples/source/common/Log.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerf2990c09d132ba41^f4a63a09d132ba41^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/yu/git/xmp-sdk/samples/source/common/Log.cpp0000000000000000^2946"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o /Users/yu/git/xmp-sdk/samples/source/common/Log.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../.. -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.d --serialize-diagnostics /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.dia -c /Users/yu/git/xmp-sdk/samples/source/common/Log.cpp -o /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o
+36"91269356-5303-48EB-87FE-843228E10780-
 bACD325B9-EC93-4CBF-8114-3E6DC6CDE1D8
 
-CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o /Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s439537929.049152
 e439537929.787850
 r1
 xCompileC
 xDumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp
+x/Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/EndianUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/globals.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.hpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp236"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerb7b20c09d132ba41^5801de09d132ba41^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp0000000000000000^2970"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o36"40F918CC-A991-4C8C-A7B0-7DE698850397-
+d/Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp
+d/Users/yu/git/xmp-sdk/samples/source/common/TagTree.h
+d/Users/yu/git/xmp-sdk/source/EndianUtils.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
+d/Users/yu/git/xmp-sdk/samples/source/common/globals.h
+d/Users/yu/git/xmp-sdk/samples/source/common/Log.h
+d/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp236"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o /Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerb7b20c09d132ba41^5801de09d132ba41^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp0000000000000000^2970"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o /Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../.. -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.d --serialize-diagnostics /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.dia -c /Users/yu/git/xmp-sdk/samples/source/common/TagTree.cpp -o /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o
+36"40F918CC-A991-4C8C-A7B0-7DE698850397-
 bACD325B9-EC93-4CBF-8114-3E6DC6CDE1D8
 
-CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o /Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s439537929.229666
 e439537929.692904
 r1
 xCompileC
 xDumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp
+x/Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.hpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp242"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler3ee73a09d132ba41^f162b109d132ba41^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp0000000000000000^2988"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/XMPScanner.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o36"D4BB3765-48A4-407E-9B1E-8B3E59EBBFD7-
+d/Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
+d/Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp242"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o /Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler3ee73a09d132ba41^f162b109d132ba41^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp0000000000000000^2988"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o /Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../.. -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.d --serialize-diagnostics /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.dia -c /Users/yu/git/xmp-sdk/samples/source/common/XMPScanner.cpp -o /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o
+36"D4BB3765-48A4-407E-9B1E-8B3E59EBBFD7-
 bACD325B9-EC93-4CBF-8114-3E6DC6CDE1D8
 
-CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+CCompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o /Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s439537929.569644
 e439537930.231860
 r1
 xCompileC
 xDumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp
+x/Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/globals.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Environment.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Version.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP_Const.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPMeta.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPIterator.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPIterator.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMP_Common.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/TXMPUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/XMP.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPMeta.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPMeta.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPIterator.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/TXMPUtils.incl_cpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/include/client-glue/WXMPUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/Log.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/LargeFileAccess.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/source/EndianUtils.hpp
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/DumpFile.h
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/common/TagTree.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp232"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler8ded9109d132ba41^035d3b0ad132ba41^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp0000000000000000^2956"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../.. -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/include -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.dia -c /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/source/dumpfile/main.cpp -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o36"C0FDFB7A-C17B-4630-BB05-49E88BCD5DFD-
+d/Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp
+d/Users/yu/git/xmp-sdk/samples/source/common/globals.h
+d/Users/yu/git/xmp-sdk/public/include/XMP.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP_Environment.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Version.h
+d/Users/yu/git/xmp-sdk/public/include/XMP_Const.h
+d/Users/yu/git/xmp-sdk/public/include/TXMPMeta.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPIterator.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPIterator.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMP_Common.hpp
+d/Users/yu/git/xmp-sdk/public/include/TXMPUtils.hpp
+d/Users/yu/git/xmp-sdk/public/include/XMP.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPMeta.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPMeta.hpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPIterator.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/TXMPUtils.incl_cpp
+d/Users/yu/git/xmp-sdk/public/include/client-glue/WXMPUtils.hpp
+d/Users/yu/git/xmp-sdk/samples/source/common/Log.h
+d/Users/yu/git/xmp-sdk/samples/source/common/LargeFileAccess.hpp
+d/Users/yu/git/xmp-sdk/source/EndianUtils.hpp
+d/Users/yu/git/xmp-sdk/samples/source/common/DumpFile.h
+d/Users/yu/git/xmp-sdk/samples/source/common/TagTree.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp232"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o /Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler8ded9109d132ba41^035d3b0ad132ba41^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp0000000000000000^2956"CompileC DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o /Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DMAC_ENV=1 -DXMP_64=0 -DXMP_StaticBuild=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -Wno-sign-conversion -I/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../.. -I/Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/include -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources/i386 -I/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -funsigned-char -fshort-enums -fno-common -Wall -Wextra -Wno-missing-field-initializers -Wno-shadow -Wno-reorder -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-variable -Wno-unused-function -Wno-unused-parameter -DDEBUG=1 -D_DEBUG=1 -MMD -MT dependencies -MF /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.dia -c /Users/yu/git/xmp-sdk/samples/source/dumpfile/main.cpp -o /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o
+36"C0FDFB7A-C17B-4630-BB05-49E88BCD5DFD-
 bACD325B9-EC93-4CBF-8114-3E6DC6CDE1D8
 
-CLd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpFile normal i386
+CLd /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpFile normal i386
 s439538043.776230
 e439538043.913710
 r1
 xLd
-x/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpFile
+x/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpFile
 xnormal
 xi386
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.LinkFileList
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
-d/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.o
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/LargeFileAccess.o
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/Log.o
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/TagTree.o
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/XMPScanner.o
+d/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/main.o
+d/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a
+d/Users/yu/git/xmp-sdk/public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
@@ -645,6 +709,10 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpFile110"Ld /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpFile normal i3864cc5c67bd132ba41^0eddec7bd132ba41^---0#0#1#--1491"Ld /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpFile normal i386    cd /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake    export MACOSX_DEPLOYMENT_TARGET=10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -F/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug -filelist /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a -framework CoreServices -Xlinker -dependency_info -Xlinker /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile_dependency_info.dat -o /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/target/macintosh/intel/Debug/DumpFile36"952354DF-26A2-4539-8ADB-23A9F374A74E-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpFile110"Ld /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpFile normal i3864cc5c67bd132ba41^0eddec7bd132ba41^---0#0#1#--1491"Ld /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpFile normal i386
+    cd /Users/yu/git/xmp-sdk/samples/build/cmake
+    export MACOSX_DEPLOYMENT_TARGET=10.6
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -F/Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug -filelist /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPCoreStatic.a /Users/yu/git/xmp-sdk/samples/build/cmake/../../../public/libraries/macintosh/intel/Debug/libXMPFilesStatic.a -framework CoreServices -Xlinker -dependency_info -Xlinker /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/XMP_Samples.build/Debug/DumpFile.build/Objects-normal/i386/DumpFile_dependency_info.dat -o /Users/yu/git/xmp-sdk/samples/target/macintosh/intel/Debug/DumpFile
+36"952354DF-26A2-4539-8ADB-23A9F374A74E-
 b3177BD63-472E-4C3A-80D5-8A99E17ED3A9
 

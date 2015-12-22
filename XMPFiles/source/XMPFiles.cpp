@@ -21,10 +21,6 @@
 #include "XMPFiles/source/XMPFiles_Impl.hpp"
 #include "XMPFiles/source/HandlerRegistry.h"
 
-#if EnablePluginManager
-	#include "XMPFiles/source/PluginHandler/PluginManager.h"
-#endif
-
 #include "XMPFiles/source/FormatSupport/ID3_Support.hpp"
 
 #if EnablePacketScanning
@@ -40,10 +36,6 @@
 // =================================================================================================
 
 using namespace Common;
-
-#if EnablePluginManager
-	using namespace XMP_PLUGIN;
-#endif
 
 // =================================================================================================
 
@@ -167,14 +159,6 @@ XMPFiles::Initialize( XMP_OptionBits options, const char* pluginFolder, const ch
 		if ( ! ignoreLocalText ) XMP_Throw ( "Generic UNIX clients must pass kXMPFiles_IgnoreLocalText", kXMPErr_EnforceFailure );
 	#endif
 
-	#if EnablePluginManager
-		if ( pluginFolder != 0 ) {
-			std::string pluginList;
-			if ( plugins != 0 ) pluginList.assign ( plugins );
-			PluginManager::initialize ( pluginFolder, pluginList );  // Load file handler plugins.
-		}
-	#endif
-
 	// Make sure the embedded info strings are referenced and kept.
 	if ( (kXMPFiles_EmbeddedVersion[0] == 0) || (kXMPFiles_EmbeddedCopyright[0] == 0) ) return false;
 	// Verify critical type sizes.
@@ -280,10 +264,6 @@ XMPFiles::Terminate()
 	#if GatherPerformanceData
 		ReportPerformanceData();
 		EliminateGlobal ( sAPIPerf );
-	#endif
-
-	#if EnablePluginManager
-		PluginManager::terminate();
 	#endif
 
 	HandlerRegistry::terminate();

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile
+# Install script for directory: /Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

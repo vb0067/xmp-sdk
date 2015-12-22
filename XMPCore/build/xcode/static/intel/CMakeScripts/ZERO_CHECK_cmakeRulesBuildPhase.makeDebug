@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/CMakeFiles/ZERO_CHECK
+	/Users/yu/git/xmp-sdk/XMPCore/build/xcode/static/intel/CMakeFiles/ZERO_CHECK
 
 
-/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/CMakeFiles/ZERO_CHECK: 
+/Users/yu/git/xmp-sdk/XMPCore/build/xcode/static/intel/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/XMPCore/build/xcode/static/intel/CMakeScripts/ReRunCMake.make
+	make -f /Users/yu/git/xmp-sdk/XMPCore/build/xcode/static/intel/CMakeScripts/ReRunCMake.make

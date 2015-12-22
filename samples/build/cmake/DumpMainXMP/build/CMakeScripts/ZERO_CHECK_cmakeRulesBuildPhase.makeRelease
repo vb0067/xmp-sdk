@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpMainXMP/build/CMakeFiles/ZERO_CHECK
+	/Users/yu/git/xmp-sdk/samples/build/cmake/DumpMainXMP/build/CMakeFiles/ZERO_CHECK
 
 
-/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpMainXMP/build/CMakeFiles/ZERO_CHECK: 
+/Users/yu/git/xmp-sdk/samples/build/cmake/DumpMainXMP/build/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpMainXMP/build/CMakeScripts/ReRunCMake.make
+	make -f /Users/yu/git/xmp-sdk/samples/build/cmake/DumpMainXMP/build/CMakeScripts/ReRunCMake.make

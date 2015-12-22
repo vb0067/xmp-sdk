@@ -1,4 +1,4 @@
-# Install script for directory: /Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake
+# Install script for directory: /Users/yu/git/xmp-sdk/samples/build/cmake
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,16 +29,16 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/CustomSchema/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpFile/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpMainXMP/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/DumpScannedXMP/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ModifyingXMP/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/ReadingXMP/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCommand/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPCoreCoverage/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPFilesCoverage/build/cmake_install.cmake")
-  INCLUDE("/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/cmake/XMPIterations/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/CustomSchema/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/DumpFile/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/DumpMainXMP/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/DumpScannedXMP/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/ModifyingXMP/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/ReadingXMP/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/XMPCommand/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/XMPCoreCoverage/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/XMPFilesCoverage/build/cmake_install.cmake")
+  INCLUDE("/Users/yu/git/xmp-sdk/samples/build/cmake/XMPIterations/build/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -48,7 +48,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/xcode/intel/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/Users/yu/git/xmp-sdk/samples/build/xcode/intel/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/Users/thomasz/workspace/XMP-Toolkit-SDK-CC201306/samples/build/xcode/intel/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/Users/yu/git/xmp-sdk/samples/build/xcode/intel/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)
